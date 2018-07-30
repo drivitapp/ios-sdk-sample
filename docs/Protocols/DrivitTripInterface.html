@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DrivitTripInterface Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/DrivitTripInterface" class="dashAnchor"></a>
+    <a title="DrivitTripInterface Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (74% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DrivitTripInterface Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Drivit.html">Drivit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Drivit0A19PushNotificationsIDSSvp">DrivitPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Base64Certificate.html">Base64Certificate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:6Drivit0A12CertificatesO">DrivitCertificates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitDataPlan.html">DrivitDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationManagerType.html">DrivitLocationManagerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationType.html">DrivitLocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitState.html">DrivitState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CodingUserInfoKey.html">CodingUserInfoKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitLocationInterface.html">DrivitLocationInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitModelDelegate.html">DrivitModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditInterface.html">DrivitTripEditInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditPersistanceStore.html">DrivitTripEditPersistanceStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripInterface.html">DrivitTripInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserInterface.html">DrivitUserInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsEditorInterface.html">DrivitUserSettingsEditorInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsInterface.html">DrivitUserSettingsInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:6Drivit10ParsedItemP">ParsedItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Student.html">Student</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLocationAccuracy.html">DrivitLocationAccuracy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Drivit4UserV">User</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A18ActivityConfidencea">DrivitActivityConfidence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A20LocationCoordinate2Da">DrivitLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit15completionBlocka">completionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DrivitTripInterface</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DrivitTripInterface</span></code></pre>
+
+                </div>
+              </div>
+            <h1 id='drivittripinterface' class='heading'>DrivitTripInterface</h1>
+
+<p>DrivitTripInterface is the protocol that defines a trip running or previously registered.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP7getGuidSSyF"></a>
+                    <a name="//apple_ref/swift/Method/getGuid()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP7getGuidSSyF">getGuid()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Unique Identifier of the trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getGuid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="String">String</a> representing the unique identifier.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP12getStartDate10Foundation0F0VyF"></a>
+                    <a name="//apple_ref/swift/Method/getStartDate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP12getStartDate10Foundation0F0VyF">getStartDate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The date that the trip started.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getStartDate</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="Date">Date</a> representing the date the trip started.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP10getEndDate10Foundation0F0VSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getEndDate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP10getEndDate10Foundation0F0VSgyF">getEndDate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The date that the trip ended.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getEndDate</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="Date">Date</a> representing the date the trip ended, or nil if the trip is still going.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP11getDistanceSdyF"></a>
+                    <a name="//apple_ref/swift/Method/getDistance()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP11getDistanceSdyF">getDistance()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The distance calculated by all the locations that were registered for the trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getDistance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="Double">Double</a> representing the distance calculated.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP16getOriginAddressSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getOriginAddress()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP16getOriginAddressSSSgyF">getOriginAddress()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Address were the trip started, this address is an operation that can fail.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getOriginAddress</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="String">String</a> representing the address, it can be nil if no address was retrieved still.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP21getDestinationAddressSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getDestinationAddress()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP21getDestinationAddressSSSgyF">getDestinationAddress()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Address were the trip ended, this address is an operation that can fail.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getDestinationAddress</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="String">String</a> representing the address, it can be nil if no address was retrieved still.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP7getCostSdyF"></a>
+                    <a name="//apple_ref/swift/Method/getCost()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP7getCostSdyF">getCost()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The cost is calculated depending on the distance and the fuel cost.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getCost</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="Double">Double</a> representing the cost calculated.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP10getConsumeSdyF"></a>
+                    <a name="//apple_ref/swift/Method/getConsume()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP10getConsumeSdyF">getConsume()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The consume is calculated depending on the distance and the vehicle consume.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getConsume</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <a href="Double">Double</a> representing the consume calculated.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP15getLastActivityAA0afC0_pSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getLastActivity()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP15getLastActivityAA0afC0_pSgyF">getLastActivity()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The last motion activity registered for this trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLastActivity</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A DrivitActivityInterface that represents the last activity.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP19getStartingActivityAA0afC0_pSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getStartingActivity()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP19getStartingActivityAA0afC0_pSgyF">getStartingActivity()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The starting motion activity registered for this trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getStartingActivity</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A DrivitActivityInterface that represents the start activity.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP12getActivitysSayAA0a8ActivityC0_pGyF"></a>
+                    <a name="//apple_ref/swift/Method/getActivitys()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP12getActivitysSayAA0a8ActivityC0_pGyF">getActivitys()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An collection of all activitys registered for this trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getActivitys</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An Array of DrivitActivityInterface.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP12getLocationsSayAA0a8LocationC0_pGyF"></a>
+                    <a name="//apple_ref/swift/Method/getLocations()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP12getLocationsSayAA0a8LocationC0_pGyF">getLocations()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An collection of all locations registered for this trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLocations</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Protocols/DrivitLocationInterface.html">DrivitLocationInterface</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An Array of DrivitLocationInterface.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A13TripInterfaceP15getEditorObjectAA0ab4EditC0_pyF"></a>
+                    <a name="//apple_ref/swift/Method/getEditorObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A13TripInterfaceP15getEditorObjectAA0ab4EditC0_pyF">getEditorObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an object that will enable the edition of this trip.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getEditorObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DrivitTripEditInterface.html">DrivitTripEditInterface</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An DrivitTripEditInterface protocol.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-07-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

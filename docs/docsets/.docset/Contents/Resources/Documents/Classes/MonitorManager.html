@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MonitorManager Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MonitorManager" class="dashAnchor"></a>
+    <a title="MonitorManager Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MonitorManager Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Drivit.html">Drivit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MonitorManager.html">MonitorManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Drivit0A19PushNotificationsIDSSvp">DrivitPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Base64Certificate.html">Base64Certificate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:6Drivit0A12CertificatesO">DrivitCertificates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitDataPlan.html">DrivitDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationManagerType.html">DrivitLocationManagerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationType.html">DrivitLocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitState.html">DrivitState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CodingUserInfoKey.html">CodingUserInfoKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitLocationInterface.html">DrivitLocationInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitModelDelegate.html">DrivitModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditInterface.html">DrivitTripEditInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditPersistanceStore.html">DrivitTripEditPersistanceStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripInterface.html">DrivitTripInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserInterface.html">DrivitUserInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsEditorInterface.html">DrivitUserSettingsEditorInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsInterface.html">DrivitUserSettingsInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:6Drivit10ParsedItemP">ParsedItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Student.html">Student</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLocationAccuracy.html">DrivitLocationAccuracy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Drivit4UserV">User</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A18ActivityConfidencea">DrivitActivityConfidence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A20LocationCoordinate2Da">DrivitLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit15completionBlocka">completionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MonitorManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">MonitorManager</span></code></pre>
+
+                </div>
+              </div>
+            <p>The Monitor class responsible for tracking.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC5stateAA0A5StateOvp"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC5stateAA0A5StateOvp">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Determines if Drivit is running.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/DrivitState.html">DrivitState</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC4planAA10DIDataPlanOvp"></a>
+                    <a name="//apple_ref/swift/Property/plan" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC4planAA10DIDataPlanOvp">plan</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls data plan usage</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">plan</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIDataPlan.html">DIDataPlan</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC9precisionAA14DIGPSPrecisionOvp"></a>
+                    <a name="//apple_ref/swift/Property/precision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC9precisionAA14DIGPSPrecisionOvp">precision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls location precision</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">precision</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC4modeAA15DIRecordingModeOvp"></a>
+                    <a name="//apple_ref/swift/Property/mode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC4modeAA15DIRecordingModeOvp">mode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls recording mode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mode</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIRecordingMode.html">DIRecordingMode</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC15lastVehicleGuidSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lastVehicleGuid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC15lastVehicleGuidSSSgvp">lastVehicleGuid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls recording mode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lastVehicleGuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC6screenSivp"></a>
+                    <a name="//apple_ref/swift/Property/screen" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC6screenSivp">screen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls screen off time</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">screen</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC7vehicleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/vehicle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC7vehicleSSvp">vehicle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls last target vehicle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">vehicle</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC9isRunningSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isRunning" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC9isRunningSbvp">isRunning</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to validate if the SDK is running</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isRunning</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a Monitor instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Authentication"></a>
+                <a name="//apple_ref/swift/Section/Authentication" class="dashAnchor"></a>
+                <a href="#/Authentication">
+                  <h3 class="section-name">Authentication</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC5loginyAA6DIAuthO4auth_yAA6ResultOyAA4UserVGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/login(auth:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC5loginyAA6DIAuthO4auth_yAA6ResultOyAA4UserVGc10completiontF">login(auth:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to login the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">auth</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIAuth.html">DIAuth</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs.html#/s:6Drivit4UserV">User</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC6logoutyyAA6ResultOyAA4UserVGc10completion_tF"></a>
+                    <a name="//apple_ref/swift/Method/logout(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC6logoutyyAA6ResultOyAA4UserVGc10completion_tF">logout(completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to logout the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">logout</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs.html#/s:6Drivit4UserV">User</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC6signupyAA6DIAuthO4auth_yAA6ResultOyAA4UserVGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/signup(auth:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC6signupyAA6DIAuthO4auth_yAA6ResultOyAA4UserVGc10completiontF">signup(auth:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to signup the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">signup</span><span class="p">(</span><span class="nv">auth</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIAuth.html">DIAuth</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs.html#/s:6Drivit4UserV">User</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Garage"></a>
+                <a name="//apple_ref/swift/Section/Garage" class="dashAnchor"></a>
+                <a href="#/Garage">
+                  <h3 class="section-name">Garage</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC5makesySi4year_Si4fuelyAA6ResultOySaySSGGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/makes(year:fuel:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC5makesySi4year_Si4fuelyAA6ResultOySaySSGGc10completiontF">makes(year:fuel:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to present list of makes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">makes</span><span class="p">(</span><span class="nv">year</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt">String</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC6modelsySS4make_Si4fuelyAA6ResultOySays10DictionaryVySSypGGGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/models(make:fuel:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC6modelsySS4make_Si4fuelyAA6ResultOySays10DictionaryVySSypGGGc10completiontF">models(make:fuel:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to present list of models.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">models</span><span class="p">(</span><span class="nv">make</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC4carsySS4make_Si4fuelSS5modelyAA6ResultOySays10DictionaryVySSypGGGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/cars(make:fuel:model:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC4carsySS4make_Si4fuelSS5modelyAA6ResultOySays10DictionaryVySSypGGGc10completiontF">cars(make:fuel:model:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to present list of cars.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cars</span><span class="p">(</span><span class="nv">make</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC3addySS4guid_Si4yearyAA6ResultOyytGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/add(guid:year:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC3addySS4guid_Si4yearyAA6ResultOyytGc10completiontF">add(guid:year:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to add a car to the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC6removeySS4guid_yAA6ResultOyytGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/remove(guid:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC6removeySS4guid_yAA6ResultOyytGc10completiontF">remove(guid:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to remove a car from the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Location"></a>
+                <a name="//apple_ref/swift/Section/Location" class="dashAnchor"></a>
+                <a href="#/Location">
+                  <h3 class="section-name">Location</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC11permissionsyyF"></a>
+                    <a name="//apple_ref/swift/Method/permissions()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC11permissionsyyF">permissions()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to present location permissions dialog.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">permissions</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Logging"></a>
+                <a name="//apple_ref/swift/Section/Logging" class="dashAnchor"></a>
+                <a href="#/Logging">
+                  <h3 class="section-name">Logging</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC7loggingySb6enable_tF"></a>
+                    <a name="//apple_ref/swift/Method/logging(enable:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC7loggingySb6enable_tF">logging(enable:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls whether to allow Drivit to present logs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">logging</span><span class="p">(</span><span class="nv">enable</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Remote%20Notifications"></a>
+                <a name="//apple_ref/swift/Section/Remote Notifications" class="dashAnchor"></a>
+                <a href="#/Remote%20Notifications">
+                  <h3 class="section-name">Remote Notifications</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC30registerForRemoteNotificationsyyF"></a>
+                    <a name="//apple_ref/swift/Method/registerForRemoteNotifications()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC30registerForRemoteNotificationsyyF">registerForRemoteNotifications()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to register for remote notifications</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">registerForRemoteNotifications</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC28didReceiveRemoteNotificationys10DictionaryVys11AnyHashableVypG8userInfo_tF"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveRemoteNotification(userInfo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC28didReceiveRemoteNotificationys10DictionaryVys11AnyHashableVypG8userInfo_tF">didReceiveRemoteNotification(userInfo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to receive a remote notification</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14MonitorManagerC28didReceiveRemoteNotificationys10DictionaryVys11AnyHashableVypG8userInfo_ySC23UIBackgroundFetchResultOc17completionHandlertF"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveRemoteNotification(userInfo:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14MonitorManagerC28didReceiveRemoteNotificationys10DictionaryVys11AnyHashableVypG8userInfo_ySC23UIBackgroundFetchResultOc17completionHandlertF">didReceiveRemoteNotification(userInfo:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Control to receive a remote notification</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span>
+                                         <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-07-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

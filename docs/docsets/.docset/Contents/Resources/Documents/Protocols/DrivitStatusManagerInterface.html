@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DrivitStatusManagerInterface Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/DrivitStatusManagerInterface" class="dashAnchor"></a>
+    <a title="DrivitStatusManagerInterface Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (74% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DrivitStatusManagerInterface Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Drivit.html">Drivit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Drivit0A19PushNotificationsIDSSvp">DrivitPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Base64Certificate.html">Base64Certificate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:6Drivit0A12CertificatesO">DrivitCertificates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitDataPlan.html">DrivitDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationManagerType.html">DrivitLocationManagerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationType.html">DrivitLocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitState.html">DrivitState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CodingUserInfoKey.html">CodingUserInfoKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitLocationInterface.html">DrivitLocationInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitModelDelegate.html">DrivitModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditInterface.html">DrivitTripEditInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripEditPersistanceStore.html">DrivitTripEditPersistanceStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitTripInterface.html">DrivitTripInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserInterface.html">DrivitUserInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsEditorInterface.html">DrivitUserSettingsEditorInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitUserSettingsInterface.html">DrivitUserSettingsInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:6Drivit10ParsedItemP">ParsedItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Student.html">Student</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLocationAccuracy.html">DrivitLocationAccuracy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Drivit4UserV">User</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A18ActivityConfidencea">DrivitActivityConfidence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A20LocationCoordinate2Da">DrivitLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit15completionBlocka">completionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DrivitStatusManagerInterface</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DrivitStatusManagerInterface</span></code></pre>
+
+                </div>
+              </div>
+            <p>DrivitStatusManagerInterface gives access to permissions of the user needed by the SDK, and methods to ask for those permissions.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP19getLocationSettingsAA0aF7SettingOyF"></a>
+                    <a name="//apple_ref/swift/Method/getLocationSettings()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP19getLocationSettingsAA0aF7SettingOyF">getLocationSettings()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the location permisssions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLocationSettings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DrivitLocationSetting enum with the permission given by the user.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP17getMotionSettingsAA0A21UserPermissionSettingOyF"></a>
+                    <a name="//apple_ref/swift/Method/getMotionSettings()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP17getMotionSettingsAA0A21UserPermissionSettingOyF">getMotionSettings()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the motion permisssions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getMotionSettings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DrivitMotionSetting enum with the permission given by the user.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP25getBackgroundTaskSettingsAA0A21UserPermissionSettingOyF"></a>
+                    <a name="//apple_ref/swift/Method/getBackgroundTaskSettings()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP25getBackgroundTaskSettingsAA0A21UserPermissionSettingOyF">getBackgroundTaskSettings()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the background tasks permisssions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getBackgroundTaskSettings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DrivitBackgroundTasksSetting enum with the permission given by the user.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP015getSDKRecordingB8SettingsAA0afB7SettingOyF"></a>
+                    <a name="//apple_ref/swift/Method/getSDKRecordingStatusSettings()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP015getSDKRecordingB8SettingsAA0afB7SettingOyF">getSDKRecordingStatusSettings()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the SDK status.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getSDKRecordingStatusSettings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DrivitSDKRecordingStatusSetting enum with the current status of the SDK.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP22askForLocationApprovalyyF"></a>
+                    <a name="//apple_ref/swift/Method/askForLocationApproval()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP22askForLocationApprovalyyF">askForLocationApproval()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Will ask for the approval of the location settings to the user. This will check first if this was previously asked, if so it will show a pront and try to redirect the user the settings screen.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">askForLocationApproval</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP20askForMotionApprovalyyF"></a>
+                    <a name="//apple_ref/swift/Method/askForMotionApproval()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP20askForMotionApprovalyyF">askForMotionApproval()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Will ask for the approval of the motion settings to the user. This will check first if this was previously asked, if so it will show a pront and try to redirect the user the settings screen.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">askForMotionApproval</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP28askForBackgroundTaskApprovalyyF"></a>
+                    <a name="//apple_ref/swift/Method/askForBackgroundTaskApproval()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP28askForBackgroundTaskApprovalyyF">askForBackgroundTaskApproval()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Will ask for the approval of the background tasks settings to the user. This will check first if this was previously asked, if so it will show a pront and try to redirect the user the settings screen.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">askForBackgroundTaskApproval</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit0A22StatusManagerInterfaceP015setSDKRecordingB0yAA0afB7SettingOF"></a>
+                    <a name="//apple_ref/swift/Method/setSDKRecordingStatus(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit0A22StatusManagerInterfaceP015setSDKRecordingB0yAA0afB7SettingOF">setSDKRecordingStatus(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the SDK status if possible.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSDKRecordingStatus</span><span class="p">(</span><span class="n">_</span> <span class="nv">status</span><span class="p">:</span> <span class="kt"><a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-07-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
