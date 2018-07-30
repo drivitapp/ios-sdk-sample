@@ -3,9 +3,6 @@
 
 This document outlines the key steps to integrate Drivit SDK into your application and put it to work.
 
-## Get an API_KEY
-To use the Drivit SDK you need an API Key. Contact us at support@drivit.com to get one. 
-
 ## Setup your XCode Project
 ### 1. Add the Drivit SDK framework to your app bundle
 
@@ -38,10 +35,14 @@ let simple = DIAuth.regular(email: "email", password: "password")
 OR
 let advanced = DIAuth.advance(secret: "secret")
             
-Drivit.shared.login(auth: simple) { result in                
+Drivit.shared.login(auth: simple)
+OR
+Drivit.shared.signup(auth: simple) { result in                
         switch(result) {
-        case .success(_): break
-        case .error(_): break
+        case .success(var user): 
+            print("Welcome " + user.firstName)
+        case .error(var error): 
+        print("An error ocurred: " + error.localizedDescription)
 }
 ```
 
