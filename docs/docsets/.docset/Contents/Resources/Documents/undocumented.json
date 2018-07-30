@@ -8,27 +8,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Drivit+Objects.swift",
-      "line": 11,
-      "symbol": "DIAuth",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Drivit+Objects.swift",
-      "line": 13,
-      "symbol": "DIAuth.regular",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Drivit+Objects.swift",
-      "line": 15,
-      "symbol": "DIAuth.advance",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Drivit.swift",
       "line": 14,
       "symbol": "DrivitPushNotificationsID",
@@ -141,83 +120,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 41,
-      "symbol": "CompressionLevel.noCompression",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 42,
-      "symbol": "CompressionLevel.bestSpeed",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 43,
-      "symbol": "CompressionLevel.bestCompression",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 45,
-      "symbol": "CompressionLevel.defaultCompression",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 54,
-      "symbol": "CompressionLevel.init(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 68,
-      "symbol": "GzipError.Kind",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 147,
-      "symbol": "GzipError.localizedDescription",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/LocalizationMonitorProtocol.swift",
-      "line": 28,
-      "symbol": "DrivitLocationManagerType.fences",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/LocalizationMonitorProtocol.swift",
-      "line": 29,
-      "symbol": "DrivitLocationManagerType.location",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/LocalizationMonitorProtocol.swift",
-      "line": 30,
-      "symbol": "DrivitLocationManagerType.both",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/LocalizationMonitorProtocol.swift",
-      "line": 32,
-      "symbol": "DrivitLocationManagerType.next()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/Model/Cloud/DrivitCloud.swift",
       "line": 30,
       "symbol": "DrivitLoginObject.init(username:password:)",
@@ -313,55 +215,6 @@
       "line": 149,
       "symbol": "DrivitUserInterface.getAddresses()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/MonitorManager.swift",
-      "line": 11,
-      "symbol": "DrivitState",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/MonitorManager.swift",
-      "line": 12,
-      "symbol": "DrivitState.stopped",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/MonitorManager.swift",
-      "line": 13,
-      "symbol": "DrivitState.preparing",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/MonitorManager.swift",
-      "line": 14,
-      "symbol": "DrivitState.running",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/NetworkLayer/DIConnector/DIConnector+Certificates.swift",
-      "line": 45,
-      "symbol": "Base64Certificate.DigiCert_Assured_ID_Root_CA",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/NetworkLayer/DIItems/DIParsedItem.swift",
-      "line": 11,
-      "symbol": "ParsedItem",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gfrade/Documents/Trabalhos/Drivit/iOS-core/Source/NetworkLayer/DIItems/DIParsedItem.swift",
-      "line": 15,
-      "symbol": "CodingUserInfoKey.managedObjectContext",
-      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {

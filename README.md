@@ -1,7 +1,7 @@
 
 # DrivitSDK-Sample
 
-This is a sample project to demonstrate the Drivit iOS SDK integration. This document also outlines the key steps to integrate Drivit SDK into your application and put it to work.
+This document outlines the key steps to integrate Drivit SDK into your application and put it to work.
 
 ## Get an API_KEY
 To use the Drivit SDK you need an API Key. Contact us at support@drivit.com to get one. 
@@ -57,4 +57,4 @@ And that is it! Safe trips!
 
 **The Drivit Team**
 
-<br/><br/>P.S. You can see the complete reference documentation [here](http://htmlpreview.github.com/?https://github.com/drivitapp/ios-sdk-sample/blob/master/docs/index.html)
+<br/><br/>P.S. You can see the complete reference documentation [here](https://drivitapp.github.io/ios-sdk-sample/)
