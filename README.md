@@ -57,4 +57,4 @@ And that is it! Safe trips!
 
 **The Drivit Team**
 
-<br/><br/>P.S. You can see the complete reference documentation [here](LINK)
+<br/><br/>P.S. You can see the complete reference documentation [here](http://htmlpreview.github.com/?https://github.com/drivitapp/ios-sdk-sample/blob/master/docs/index.html)
