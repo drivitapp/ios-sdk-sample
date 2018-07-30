@@ -6,11 +6,11 @@ This document outlines the key steps to integrate Drivit SDK into your applicati
 ## Setup your XCode Project
 ### 1. Add the Drivit SDK framework to your app bundle
 
-LINK TO THE FRAMEWORK
+To get the DrivitSDK framework contact us at support@drivit.com.
 
 ### 2. Add the dependencys needed for the Drivit SDK
 
-If your using carthage/cocoapods add "MagicalRecord" to your dependency tree. The framework should be in the embeded frameworks of the app.
+If you are using carthage/cocoapods add "MagicalRecord" to your dependency tree. The framework should be in the embeded frameworks of the app.
 
 ### 3. Make sure your project is running swift 4.0 or higher.
 

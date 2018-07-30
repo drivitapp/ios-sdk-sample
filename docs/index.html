@@ -160,17 +160,14 @@
             
             <h1 id='drivitsdk-sample' class='heading'>DrivitSDK-Sample</h1>
 
-<p>This is a sample project to demonstrate the Drivit iOS SDK integration. This document also outlines the key steps to integrate Drivit SDK into your application and put it to work.</p>
-<h2 id='get-an-api_key' class='heading'>Get an API_KEY</h2>
-
-<p>To use the Drivit SDK you need an API Key. Contact us at <a href="mailto:support@drivit.com">support@drivit.com</a> to get one. </p>
+<p>This document outlines the key steps to integrate Drivit SDK into your application and put it to work.</p>
 <h2 id='setup-your-xcode-project' class='heading'>Setup your XCode Project</h2>
 <h3 id='1-add-the-drivit-sdk-framework-to-your-app-bundle' class='heading'>1. Add the Drivit SDK framework to your app bundle</h3>
 
-<p>LINK TO THE FRAMEWORK</p>
+<p>To get the DrivitSDK framework contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
 <h3 id='2-add-the-dependencys-needed-for-the-drivit-sdk' class='heading'>2. Add the dependencys needed for the Drivit SDK</h3>
 
-<p>If your using carthage/cocoapods add <q>MagicalRecord</q> to your dependency tree. The framework should be in the embeded frameworks of the app.</p>
+<p>If you are using carthage/cocoapods add <q>MagicalRecord</q> to your dependency tree. The framework should be in the embeded frameworks of the app.</p>
 <h3 id='3-make-sure-your-project-is-running-swift-4-0-or-higher' class='heading'>3. Make sure your project is running swift 4.0 or higher.</h3>
 
 <p>With these three steps, your app should be already compiling the Drivit SDK. Now let&rsquo;s put it to work</p>
@@ -191,10 +188,14 @@
 OR
 let advanced = DIAuth.advance(secret: "secret")
 
-Drivit.shared.login(auth: simple) { result in                
+Drivit.shared.login(auth: simple)
+OR
+Drivit.shared.signup(auth: simple) { result in                
         switch(result) {
-        case .success(_): break
-        case .error(_): break
+        case .success(var user): 
+            print("Welcome " + user.firstName)
+        case .error(var error): 
+        print("An error ocurred: " + error.localizedDescription)
 }
 </code></pre>
 <h3 id='3-to-start-recording-a-trip' class='heading'>3. To start recording a trip</h3>
@@ -207,7 +208,7 @@ Drivit.shared.login(auth: simple) { result in
 
 <p><strong>The Drivit Team</strong></p>
 
-<p><br/><br/>P.S. You can see the complete reference documentation <a href="LINK">here</a></p>
+<p><br/><br/>P.S. You can see the complete reference documentation <a href="https://drivitapp.github.io/ios-sdk-sample/">here</a></p>
 
           </section>
         </section>

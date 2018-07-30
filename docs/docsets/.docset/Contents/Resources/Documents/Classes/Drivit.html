@@ -397,11 +397,6 @@
                       <div class="abstract">
                         <p>Login on Drivit service.</p>
 
-<ul>
-<li>loginObject: An object with all the components needed to login.</li>
-<li>completion: A completion block that will be called at the end with the result of the operation.</li>
-</ul>
-
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -428,10 +423,6 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Logout on Drivit service.</p>
-
-<ul>
-<li>completion: A completion block that will be called at the end with the result of the operation.</li>
-</ul>
 
                       </div>
                       <div class="declaration">
@@ -1278,11 +1269,6 @@ Implement the application:didReceiveRemoteNotification:fetchCompletionHandler: m
                       <div class="abstract">
                         <p>Required method to be added to the appDelegate. This method will inform the SDK when an event happens with the sync of the files.</p>
 
-<ul>
-<li>SessionIdentifier: The URLSession identifier.</li>
-<li>completion: the completion handler to tell the system we are done.</li>
-</ul>
-
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1291,6 +1277,37 @@ Implement the application:didReceiveRemoteNotification:fetchCompletionHandler: m
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDiStartWithBackgroundSessionEvents</span><span class="p">(</span><span class="kt">SessionIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>SessionIdentifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The URLSession identifier.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the completion handler to tell the system we are done.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1310,11 +1327,6 @@ Implement the application:didReceiveRemoteNotification:fetchCompletionHandler: m
                       <div class="abstract">
                         <p>Required method to be added to the appDelegate. This method will inform the SDK when an event happens in the regions.</p>
 
-<ul>
-<li>options: The URLSession identifier.</li>
-<li>completion: the completion handler to tell the system we are done.</li>
-</ul>
-
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1323,6 +1335,37 @@ Implement the application:didReceiveRemoteNotification:fetchCompletionHandler: m
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDidWakeWithOptions</span><span class="p">(</span><span class="n">_</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The URLSession identifier.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the completion handler to tell the system we are done.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
