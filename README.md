@@ -1,61 +1,76 @@
+<p align="center">
+  <img height="250" src="logo.jpg" />
+</p>
 
-# DrivitSDK-Sample
+# Drivit
 
-This document outlines the key steps to integrate Drivit SDK into your application and put it to work.
+[![CocoaPods Compatible](https://img.shields.io/badge/pod-1.1.0-blue.svg)](https://img.shields.io/badge/pod-1.1.0-blue.svg) [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://img.shields.io/badge/platform-ios-lightgrey.svg)
 
-## Setup your XCode Project
-### 1. Add the Drivit SDK framework to your app bundle
+Meet Drivit, an SDK that helps you in your day-to-day activities while making you a better driver.
 
-To get the DrivitSDK framework contact us at support@drivit.com.
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Documentation](https://drivitapp.github.io/ios-sdk-sample/)
+- [Usage](https://github.com/drivitapp/ios-sdk-sample/blob/master/USAGE.md)
 
-### 2. Add the dependencys needed for the Drivit SDK
+## Features
+
+- [x] Login
+
+## Requirements
+
+- iOS 10.0+
+- Xcode 9.0+
+
+Below is a table that shows which version of Drivit you should use for your Swift version.
+
+Swift | Drivit   
+:---- | -------- 
+4.X   | >= 1.0.0
+
+## Installation
+
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate Drivit into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'Drivit', '~> 1.1.0'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manually
+
+#### 1. Add the Drivit SDK framework to your app bundle
+
+To get the Drivit SDK framework contact us at support@drivit.com.
+
+#### 2. Add the dependencys needed for the Drivit SDK
 
 If you are using carthage/cocoapods add "MagicalRecord" to your dependency tree. The framework should be in the embeded frameworks of the app.
 
-### 3. Make sure your project is running swift 4.0 or higher.
+#### 3. Make sure your project is running swift 4.0 or higher.
 
 With these three steps, your app should be already compiling the Drivit SDK. Now let's put it to work
 
-## Using the SDK
-### 1. Add the the following methods to your app delegate.
-Add the following code to your application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
-```
-Drivit.shared.applicationDidWakeWithOptions(launchOptions)
-```
-Next add the following code to application(_ application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: @escaping () -> Void)
-```
-Drivit.shared.applicationDiStartWithBackgroundSessionEvents(SessionIdentifier: identifier, completion: completionHandler)
-```
+## License
 
-### 2. Login/signup your user into the SDK
-You have to login the user into the SDK before it starts recording trips. To do so, create an instance of the ```DIAuth``` object and provide it with the info of your user
-
-```
-let simple = DIAuth.regular(email: "email", password: "password")
-OR
-let advanced = DIAuth.advance(secret: "secret")
-            
-Drivit.shared.login(auth: simple)
-OR
-Drivit.shared.signup(auth: simple) { result in                
-        switch(result) {
-        case .success(var user): 
-            print("Welcome " + user.firstName)
-        case .error(var error): 
-        print("An error ocurred: " + error.localizedDescription)
-}
-```
-
-### 3. To start recording a trip
-After you login you can start a trip by running the following code:
-
-```
-Drivit.shared.forceTripStart()
-```
-
-
-And that is it! Safe trips!
-
-**The Drivit Team**
-
-<br/><br/>P.S. You can see the complete reference documentation [here](https://drivitapp.github.io/ios-sdk-sample/)
+Copyright (c) 2018 Bahub Business Analysis Systems, Lda. [See LICENSE](https://github.com/drivitapp/iOS-core/blob/master/LICENSE) for details.

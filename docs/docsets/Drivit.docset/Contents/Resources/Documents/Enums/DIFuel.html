@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DrivitLocationSetting Enumeration Reference</title>
+    <title>DIFuel Enumeration Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/DrivitLocationSetting" class="dashAnchor"></a>
-    <a title="DrivitLocationSetting Enumeration Reference"></a>
+    <a name="//apple_ref/swift/Enum/DIFuel" class="dashAnchor"></a>
+    <a title="DIFuel Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Drivit Docs</a> (67% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DrivitLocationSetting Enumeration Reference
+        DIFuel Enumeration Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -177,14 +177,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DrivitLocationSetting</h1>
+            <h1>DIFuel</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DrivitLocationSetting</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIFuel</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                 </div>
               </div>
-            <p>Enum that defines the levels of permissions that the user can give for location.</p>
+            <p>Enum that defines the car fuel type</p>
 
           </section>
           <section class="section task-group-section">
@@ -193,9 +193,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit0A15LocationSettingO6alwaysA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/always" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit0A15LocationSettingO6alwaysA2CmF">always</a>
+                    <a name="/s:6Drivit6DIFuelO6petrolA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/petrol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DIFuelO6petrolA2CmF">petrol</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -203,14 +203,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The user gave permission to always be listening to location</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">always</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">petrol</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
 
                         </div>
                       </div>
@@ -220,9 +220,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit0A15LocationSettingO17onlyWhenAppActiveA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/onlyWhenAppActive" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit0A15LocationSettingO17onlyWhenAppActiveA2CmF">onlyWhenAppActive</a>
+                    <a name="/s:6Drivit6DIFuelO6dieselA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/diesel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DIFuelO6dieselA2CmF">diesel</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -230,14 +230,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The user gave permission to only listen to location when the app is open</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">onlyWhenAppActive</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">diesel</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
 
                         </div>
                       </div>
@@ -247,9 +247,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit0A15LocationSettingO8rejectedA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/rejected" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit0A15LocationSettingO8rejectedA2CmF">rejected</a>
+                    <a name="/s:6Drivit6DIFuelO8electricA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/electric" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DIFuelO8electricA2CmF">electric</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -257,14 +257,41 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The user didnt gave permission to listen to location events.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">rejected</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">electric</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit6DIFuelO11descriptionSSvp"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DIFuelO11descriptionSSvp">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Description of the case</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
