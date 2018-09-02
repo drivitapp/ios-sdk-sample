@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DIChargingRuleManager Protocol Reference</title>
+    <title>DIChargingRule Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/DIChargingRuleManager" class="dashAnchor"></a>
-    <a title="DIChargingRuleManager Protocol Reference"></a>
+    <a name="//apple_ref/swift/Struct/DIChargingRule" class="dashAnchor"></a>
+    <a title="DIChargingRule Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Drivit Docs</a> (49% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DIChargingRuleManager Protocol Reference
+        DIChargingRule Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -51,13 +51,13 @@
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleDays.html">ChargingRuleDays</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleIds.html">ChargingRuleIds</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
@@ -128,12 +128,6 @@
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRule.html">DIChargingRule</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRuleManager.html">DIChargingRuleManager</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
               </li>
               <li class="nav-group-task">
@@ -187,6 +181,9 @@
                 <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/DILocation.html">DILocation</a>
               </li>
               <li class="nav-group-task">
@@ -197,9 +194,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITrip.html">DITrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripConsumption.html">DITripConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITripDestination.html">DITripDestination</a>
@@ -218,6 +212,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicle.html">DIVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
@@ -264,10 +261,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DIChargingRuleManager</h1>
+            <h1>DIChargingRule</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DIChargingRuleManager</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DIChargingRule</span></code></pre>
 
                 </div>
               </div>
@@ -280,9 +277,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit21DIChargingRuleManagerP8getRulesSayAA0bC0_pGyFZ"></a>
-                    <a name="//apple_ref/swift/Method/getRules()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit21DIChargingRuleManagerP8getRulesSayAA0bC0_pGyFZ">getRules()</a>
+                    <a name="/s:6Drivit14DIChargingRuleV16batteryThresholds5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/batteryThreshold" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV16batteryThresholds5Int64Vvp">batteryThreshold</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -297,7 +294,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getRules</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Protocols/DIChargingRule.html">DIChargingRule</a></span><span class="p">]</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">batteryThreshold</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
 
                         </div>
                       </div>
@@ -307,9 +304,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit21DIChargingRuleManagerP8getRulesAA0bC0_pSgSayAaE_pG5rules_AA08ChargingC3IdsO6ruleIDtFZ"></a>
-                    <a name="//apple_ref/swift/Method/getRules(rules:ruleID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit21DIChargingRuleManagerP8getRulesAA0bC0_pSgSayAaE_pG5rules_AA08ChargingC3IdsO6ruleIDtFZ">getRules(rules:ruleID:)</a>
+                    <a name="/s:6Drivit14DIChargingRuleV16daysOfChargingIds5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/daysOfChargingId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV16daysOfChargingIds5Int64Vvp">daysOfChargingId</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -324,7 +321,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getRules</span><span class="p">(</span><span class="nv">rules</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/DIChargingRule.html">DIChargingRule</a></span><span class="p">],</span> <span class="nv">ruleID</span><span class="p">:</span> <span class="kt"><a href="../Enums/ChargingRuleIds.html">ChargingRuleIds</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DIChargingRule.html">DIChargingRule</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">daysOfChargingId</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
 
                         </div>
                       </div>
@@ -334,9 +331,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit21DIChargingRuleManagerP11updateRulesySayAA0bC0_pG5rules_tFZ"></a>
-                    <a name="//apple_ref/swift/Method/updateRules(rules:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit21DIChargingRuleManagerP11updateRulesySayAA0bC0_pG5rules_tFZ">updateRules(rules:)</a>
+                    <a name="/s:6Drivit14DIChargingRuleV16electricityPriceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/electricityPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV16electricityPriceSdvp">electricityPrice</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -351,7 +348,88 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">updateRules</span><span class="p">(</span><span class="nv">rules</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/DIChargingRule.html">DIChargingRule</a></span><span class="p">])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">electricityPrice</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14DIChargingRuleV9hourOfDays5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/hourOfDay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV9hourOfDays5Int64Vvp">hourOfDay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hourOfDay</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14DIChargingRuleV6ruleIds5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/ruleId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV6ruleIds5Int64Vvp">ruleId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ruleId</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit14DIChargingRuleV9ruleStateSbvp"></a>
+                    <a name="//apple_ref/swift/Property/ruleState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit14DIChargingRuleV9ruleStateSbvp">ruleState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ruleState</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -363,7 +441,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-01)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-02)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

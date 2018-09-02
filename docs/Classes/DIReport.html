@@ -51,13 +51,13 @@
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleDays.html">ChargingRuleDays</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleIds.html">ChargingRuleIds</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
@@ -128,12 +128,6 @@
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRule.html">DIChargingRule</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRuleManager.html">DIChargingRuleManager</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
               </li>
               <li class="nav-group-task">
@@ -187,6 +181,9 @@
                 <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/DILocation.html">DILocation</a>
               </li>
               <li class="nav-group-task">
@@ -197,9 +194,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITrip.html">DITrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripConsumption.html">DITripConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITripDestination.html">DITripDestination</a>
@@ -218,6 +212,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicle.html">DIVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
@@ -523,9 +520,36 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit8DIReportC44chargingEventsDuration_public_ifFastChargingSdvp"></a>
+                    <a name="/s:6Drivit8DIReportC37chargingEventsCount_privateOptimisticSivp"></a>
+                    <a name="//apple_ref/swift/Property/chargingEventsCount_privateOptimistic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit8DIReportC37chargingEventsCount_privateOptimisticSivp">chargingEventsCount_privateOptimistic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The number of private charging events in the case that the vehicle is only charged when the battery reaches zero</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsCount_privateOptimistic</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit8DIReportC44chargingEventsDuration_public_ifFastChargingSivp"></a>
                     <a name="//apple_ref/swift/Property/chargingEventsDuration_public_ifFastCharging" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit8DIReportC44chargingEventsDuration_public_ifFastChargingSdvp">chargingEventsDuration_public_ifFastCharging</a>
+                    <a class="token" href="#/s:6Drivit8DIReportC44chargingEventsDuration_public_ifFastChargingSivp">chargingEventsDuration_public_ifFastCharging</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -540,7 +564,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_public_ifFastCharging</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_public_ifFastCharging</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -550,9 +574,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit8DIReportC44chargingEventsDuration_public_ifSlowChargingSdvp"></a>
+                    <a name="/s:6Drivit8DIReportC44chargingEventsDuration_public_ifSlowChargingSivp"></a>
                     <a name="//apple_ref/swift/Property/chargingEventsDuration_public_ifSlowCharging" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit8DIReportC44chargingEventsDuration_public_ifSlowChargingSdvp">chargingEventsDuration_public_ifSlowCharging</a>
+                    <a class="token" href="#/s:6Drivit8DIReportC44chargingEventsDuration_public_ifSlowChargingSivp">chargingEventsDuration_public_ifSlowCharging</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -567,7 +591,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_public_ifSlowCharging</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_public_ifSlowCharging</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -631,9 +655,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit8DIReportC35equivalentNumberOfTrees_baseVehicleSivp"></a>
+                    <a name="/s:6Drivit8DIReportC35equivalentNumberOfTrees_baseVehicleSdvp"></a>
                     <a name="//apple_ref/swift/Property/equivalentNumberOfTrees_baseVehicle" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit8DIReportC35equivalentNumberOfTrees_baseVehicleSivp">equivalentNumberOfTrees_baseVehicle</a>
+                    <a class="token" href="#/s:6Drivit8DIReportC35equivalentNumberOfTrees_baseVehicleSdvp">equivalentNumberOfTrees_baseVehicle</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -648,7 +672,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">equivalentNumberOfTrees_baseVehicle</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">equivalentNumberOfTrees_baseVehicle</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
 
                         </div>
                       </div>
@@ -658,9 +682,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit8DIReportC37equivalentNumberOfTrees_targetVehicleSivp"></a>
+                    <a name="/s:6Drivit8DIReportC37equivalentNumberOfTrees_targetVehicleSdvp"></a>
                     <a name="//apple_ref/swift/Property/equivalentNumberOfTrees_targetVehicle" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit8DIReportC37equivalentNumberOfTrees_targetVehicleSivp">equivalentNumberOfTrees_targetVehicle</a>
+                    <a class="token" href="#/s:6Drivit8DIReportC37equivalentNumberOfTrees_targetVehicleSdvp">equivalentNumberOfTrees_targetVehicle</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -675,7 +699,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">equivalentNumberOfTrees_targetVehicle</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">equivalentNumberOfTrees_targetVehicle</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
 
                         </div>
                       </div>
@@ -766,9 +790,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit8DIReportC30chargingEventsDuration_privateSdvp"></a>
+                    <a name="/s:6Drivit8DIReportC30chargingEventsDuration_privateSivp"></a>
                     <a name="//apple_ref/swift/Property/chargingEventsDuration_private" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit8DIReportC30chargingEventsDuration_privateSdvp">chargingEventsDuration_private</a>
+                    <a class="token" href="#/s:6Drivit8DIReportC30chargingEventsDuration_privateSivp">chargingEventsDuration_private</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -783,7 +807,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_private</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">chargingEventsDuration_private</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -903,7 +927,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-01)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-02)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

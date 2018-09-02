@@ -51,13 +51,13 @@
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleDays.html">ChargingRuleDays</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/ChargingRuleIds.html">ChargingRuleIds</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
@@ -128,12 +128,6 @@
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRule.html">DIChargingRule</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/DIChargingRuleManager.html">DIChargingRuleManager</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
               </li>
               <li class="nav-group-task">
@@ -187,6 +181,9 @@
                 <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/DILocation.html">DILocation</a>
               </li>
               <li class="nav-group-task">
@@ -197,9 +194,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITrip.html">DITrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripConsumption.html">DITripConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DITripDestination.html">DITripDestination</a>
@@ -218,6 +212,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicle.html">DIVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
@@ -712,6 +709,33 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:6Drivit6DITripV11mSoftDeleteSbvp"></a>
+                    <a name="//apple_ref/swift/Property/mSoftDelete" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV11mSoftDeleteSbvp">mSoftDelete</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mSoftDelete</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:6Drivit6DITripV10isRejectedSbvp"></a>
                     <a name="//apple_ref/swift/Property/isRejected" class="dashAnchor"></a>
                     <a class="token" href="#/s:6Drivit6DITripV10isRejectedSbvp">isRejected</a>
@@ -757,6 +781,60 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">eletricityPrice</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit6DITripV4costSdvp"></a>
+                    <a name="//apple_ref/swift/Property/cost" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV4costSdvp">cost</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cost</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit6DITripV7consumeSdvp"></a>
+                    <a name="//apple_ref/swift/Property/consume" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV7consumeSdvp">consume</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consume</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
 
                         </div>
                       </div>
@@ -847,9 +925,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit6DITripV11consumptionAA0B11ConsumptionVSgvp"></a>
-                    <a name="//apple_ref/swift/Property/consumption" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit6DITripV11consumptionAA0B11ConsumptionVSgvp">consumption</a>
+                    <a name="/s:6Drivit6DITripV18vehicleConsumptionAA09DIVehicleD0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/vehicleConsumption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV18vehicleConsumptionAA09DIVehicleD0VSgvp">vehicleConsumption</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -864,7 +942,34 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">consumption</span><span class="p">:</span> <span class="kt"><a href="../Structs/DITripConsumption.html">DITripConsumption</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">vehicleConsumption</span><span class="p">:</span> <span class="kt"><a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit6DITripV22vehicleConsumptionDataAA09DIVehicledE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/vehicleConsumptionData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV22vehicleConsumptionDataAA09DIVehicledE0_pSgvp">vehicleConsumptionData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">vehicleConsumptionData</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -892,6 +997,33 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">targetVehicleConsumption</span><span class="p">:</span> <span class="kt"><a href="../Structs/DITargetVehicleConsumption.html">DITargetVehicleConsumption</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit6DITripV28targetVehicleConsumptionDataAA08DITargetdeF0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/targetVehicleConsumptionData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit6DITripV28targetVehicleConsumptionDataAA08DITargetdeF0_pSgvp">targetVehicleConsumptionData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">targetVehicleConsumptionData</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -957,7 +1089,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-01)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-02)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
