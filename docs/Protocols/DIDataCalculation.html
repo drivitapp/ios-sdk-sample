@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DIDataCalculation Extension Reference</title>
+    <title>DIDataCalculation Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,11 +10,11 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/DIDataCalculation" class="dashAnchor"></a>
-    <a title="DIDataCalculation Extension Reference"></a>
+    <a name="//apple_ref/swift/Protocol/DIDataCalculation" class="dashAnchor"></a>
+    <a title="DIDataCalculation Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Drivit Docs</a> (49% documented)</p>
+        <p><a href="../index.html">Drivit Docs</a> (47% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DIDataCalculation Extension Reference
+        DIDataCalculation Protocol Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -134,16 +134,11 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Extensions/DIDataCalculation.html">DIDataCalculation</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
               <li class="nav-group-task">
                 <a href="../Protocols/DrivitActivityInterface.html">DrivitActivityInterface</a>
               </li>
@@ -275,7 +270,7 @@
             <h1>DIDataCalculation</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">protocol</span> <span class="kt">DIDataCalculation</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DIDataCalculation</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
 
                 </div>
               </div>
@@ -288,10 +283,13 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit17DIDataCalculationPAAE9totalCostSdvp"></a>
+                    <a name="/s:6Drivit17DIDataCalculationP9totalCostSdvp"></a>
                     <a name="//apple_ref/swift/Property/totalCost" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationPAAE9totalCostSdvp">totalCost</a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP9totalCostSdvp">totalCost</a>
                     </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
@@ -301,11 +299,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Undocumented</p>
+
+                      </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalCost</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">totalCost</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -315,9 +318,44 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit17DIDataCalculationPAAE8totalCO2Sdvp"></a>
+                    <a name="/s:6Drivit17DIDataCalculationP8totalCO2Sdvp"></a>
                     <a name="//apple_ref/swift/Property/totalCO2" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationPAAE8totalCO2Sdvp">totalCO2</a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP8totalCO2Sdvp">totalCO2</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">totalCO2</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/fuelConsumption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp">fuelConsumption</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -332,7 +370,142 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalCO2</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/electricityConsumption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp">electricityConsumption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">electricityConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP9fuelPriceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/fuelPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP9fuelPriceSdvp">fuelPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP15eletricityPriceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/eletricityPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP15eletricityPriceSdvp">eletricityPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">eletricityPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP8distanceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/distance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP8distanceSdvp">distance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">distance</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP11vehicleTypeAA06DIFuelE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/vehicleType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP11vehicleTypeAA06DIFuelE0Ovp">vehicleType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">vehicleType</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuelType.html">DIFuelType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
