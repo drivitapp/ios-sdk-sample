@@ -2,14 +2,14 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 189,
+      "line": 184,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 190,
+      "line": 185,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -100,7 +100,14 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 639,
+      "line": 199,
+      "symbol": "Drivit.auth(type:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 659,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -269,85 +276,22 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
       "line": 19,
-      "symbol": "DrivitFuelType.Gasolina",
+      "symbol": "DrivitFuelType.petrol",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
       "line": 20,
-      "symbol": "DrivitFuelType.Gasoleo",
+      "symbol": "DrivitFuelType.diesel",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DIConsumptionData.swift",
-      "line": 38,
-      "symbol": "DIVehicleConsumptionData",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DIConsumptionData.swift",
-      "line": 39,
-      "symbol": "DIVehicleConsumptionData.getTotalCO2()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DIConsumptionData.swift",
-      "line": 40,
-      "symbol": "DIVehicleConsumptionData.getTotalCost()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DIConsumptionData.swift",
-      "line": 41,
-      "symbol": "DIVehicleConsumptionData.getElectricityConsumption()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DIConsumptionData.swift",
-      "line": 42,
-      "symbol": "DIVehicleConsumptionData.getFuelConsumption()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DISimulatedConsumptionData.swift",
-      "line": 11,
-      "symbol": "DITargetVehicleConsumptionData",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DISimulatedConsumptionData.swift",
-      "line": 12,
-      "symbol": "DITargetVehicleConsumptionData.areBatteryLevelsAvailable()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DISimulatedConsumptionData.swift",
-      "line": 13,
-      "symbol": "DITargetVehicleConsumptionData.getBatteryConsumption()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DISimulatedConsumptionData.swift",
-      "line": 14,
-      "symbol": "DITargetVehicleConsumptionData.getBatteryLevel_TripStart()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DISimulatedConsumptionData.swift",
-      "line": 15,
-      "symbol": "DITargetVehicleConsumptionData.getBatteryLevel_TripEnd()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
+      "line": 21,
+      "symbol": "DrivitFuelType.electric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
@@ -598,34 +542,76 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
       "line": 12,
+      "symbol": "DITargetVehicleConsumptionData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 17,
+      "symbol": "DITargetVehicleConsumptionData.electricityConsumption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 29,
+      "symbol": "DITargetVehicleConsumptionData.batteryConsumption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 30,
+      "symbol": "DITargetVehicleConsumptionData.areBatteryLevelsAvailable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 32,
+      "symbol": "DITargetVehicleConsumptionData.batteryLevel_tripStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 33,
+      "symbol": "DITargetVehicleConsumptionData.batteryLevel_tripEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 74,
       "symbol": "DITargetVehicleConsumption",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 13,
+      "line": 75,
       "symbol": "DITargetVehicleConsumption.electricityConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 14,
+      "line": 76,
       "symbol": "DITargetVehicleConsumption.modelColdSum",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 15,
+      "line": 77,
       "symbol": "DITargetVehicleConsumption.modelHotSum",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 16,
+      "line": 78,
       "symbol": "DITargetVehicleConsumption.vehicleType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -759,83 +745,90 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 55,
-      "symbol": "DITrip.mSoftDelete",
+      "symbol": "DITrip.fuelType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 56,
-      "symbol": "DITrip.isRejected",
+      "symbol": "DITrip.mSoftDelete",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 57,
-      "symbol": "DITrip.eletricityPrice",
+      "symbol": "DITrip.isRejected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 58,
-      "symbol": "DITrip.cost",
+      "symbol": "DITrip.eletricityPrice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 59,
-      "symbol": "DITrip.consume",
+      "symbol": "DITrip.cost",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 60,
-      "symbol": "DITrip.destination",
+      "symbol": "DITrip.consume",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 61,
-      "symbol": "DITrip.origin",
+      "symbol": "DITrip.destinationLocation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 62,
-      "symbol": "DITrip.vehicleConsumption",
+      "symbol": "DITrip.originLocation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 63,
-      "symbol": "DITrip.vehicleConsumptionData",
+      "symbol": "DITrip.consumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 64,
-      "symbol": "DITrip.targetVehicleConsumption",
+      "symbol": "DITrip.consumptionData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 65,
-      "symbol": "DITrip.targetVehicleConsumptionData",
+      "symbol": "DITrip.targetVehicleConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 66,
+      "symbol": "DITrip.targetVehicleConsumptionData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
+      "line": 67,
       "symbol": "DITrip.locations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -961,42 +954,105 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": null,
+      "symbol": "DIDataCalculation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
       "line": 12,
+      "symbol": "DIFuelType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 13,
+      "symbol": "DIFuelType.petrol",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 14,
+      "symbol": "DIFuelType.diesel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 15,
+      "symbol": "DIFuelType.electric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 42,
+      "symbol": "DIDataCalculation.totalCost",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 51,
+      "symbol": "DIDataCalculation.totalCO2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 71,
+      "symbol": "DIVehicleConsumptionData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 76,
+      "symbol": "DIVehicleConsumptionData.electricityConsumption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
+      "line": 96,
       "symbol": "DIVehicleConsumption",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
-      "line": 13,
+      "line": 97,
       "symbol": "DIVehicleConsumption.fuelConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
-      "line": 14,
+      "line": 98,
       "symbol": "DIVehicleConsumption.electricityConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
-      "line": 15,
+      "line": 99,
       "symbol": "DIVehicleConsumption.totalCO2",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
-      "line": 16,
+      "line": 100,
       "symbol": "DIVehicleConsumption.totalCost",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
-      "line": 17,
+      "line": 101,
       "symbol": "DIVehicleConsumption.vehicleType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
