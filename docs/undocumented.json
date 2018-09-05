@@ -2,14 +2,14 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 184,
+      "line": 160,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 185,
+      "line": 161,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -100,16 +100,30 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 199,
+      "line": 193,
       "symbol": "Drivit.auth(type:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 666,
+      "line": 669,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 677,
+      "symbol": "Drivit.DISyncStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 678,
+      "symbol": "Drivit.DISyncStatus.somethingWentWrong",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
@@ -535,14 +549,14 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOSettings.swift",
       "line": 16,
-      "symbol": "DISettings.fuelPrice",
+      "symbol": "DISettings.lastTargetVehicleGuid",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOSettings.swift",
       "line": 17,
-      "symbol": "DISettings.lastTargetVehicleGuid",
+      "symbol": "DISettings.chargingRules",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -563,7 +577,7 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
       "line": 19,
-      "symbol": "DITargetVehicleConsumptionData.vehicleType",
+      "symbol": "DITargetVehicleConsumptionData.fuelType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -1039,7 +1053,7 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
       "line": 30,
-      "symbol": "DIDataCalculation.vehicleType",
+      "symbol": "DIDataCalculation.fuelType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -1074,7 +1088,7 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleConsumption.swift",
       "line": 72,
-      "symbol": "DIVehicleConsumptionData.vehicleType",
+      "symbol": "DIVehicleConsumptionData.fuelType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
