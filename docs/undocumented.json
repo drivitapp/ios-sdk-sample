@@ -114,21 +114,21 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 648,
+      "line": 655,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 656,
+      "line": 663,
       "symbol": "Drivit.DISyncStatus",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 657,
+      "line": 664,
       "symbol": "Drivit.DISyncStatus.somethingWentWrong",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
