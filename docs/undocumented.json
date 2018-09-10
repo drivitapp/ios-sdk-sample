@@ -344,6 +344,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DIConnector/DIConnector.swift",
+      "line": 35,
+      "symbol": "DIAuthError.code()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOChargingRule.swift",
       "line": 11,
       "symbol": "DIChargingRuleIds",
