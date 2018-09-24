@@ -2,21 +2,21 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 163,
+      "line": 184,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 164,
+      "line": 185,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 165,
+      "line": 186,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -100,37 +100,16 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 21,
+      "line": 18,
       "symbol": "DIPushNotificationsID",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 191,
-      "symbol": "Drivit.auth(type:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 663,
+      "line": 449,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 671,
-      "symbol": "Drivit.DISyncStatus",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 672,
-      "symbol": "Drivit.DISyncStatus.somethingWentWrong",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
@@ -198,7 +177,7 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/Cloud/DrivitCloud.swift",
-      "line": 30,
+      "line": 29,
       "symbol": "DrivitLoginObject.init(username:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -330,17 +309,10 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DITargetVehicleReport.swift",
-      "line": 11,
-      "symbol": "ReportStatus",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/TargetVehicle/DITargetVehicleReport.swift",
-      "line": 22,
-      "symbol": "DIReport",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DIAPISessionManager/DIAPISessionManager.swift",
+      "line": null,
+      "symbol": "DIAPISessionManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -780,34 +752,41 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 56,
-      "symbol": "DITrip.eletricityPrice",
+      "symbol": "DITrip.consumptionDataSynced",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 57,
-      "symbol": "DITrip.cost",
+      "symbol": "DITrip.eletricityPrice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 58,
-      "symbol": "DITrip.consume",
+      "symbol": "DITrip.cost",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 59,
-      "symbol": "DITrip.destinationLocation",
+      "symbol": "DITrip.consume",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
       "line": 60,
+      "symbol": "DITrip.destinationLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
+      "line": 61,
       "symbol": "DITrip.originLocation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -821,14 +800,14 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
-      "line": 64,
+      "line": 63,
       "symbol": "DITrip.targetVehicleConsumptionData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTrip.swift",
-      "line": 65,
+      "line": 64,
       "symbol": "DITrip.locations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1716,85 +1695,99 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/ReportManager/DITargetVehicleReport.swift",
+      "line": 11,
+      "symbol": "ReportStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/ReportManager/DITargetVehicleReport.swift",
+      "line": 22,
+      "symbol": "DIReport",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 87,
+      "line": 89,
       "symbol": "DrivitOverallStatus",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 88,
+      "line": 90,
       "symbol": "DrivitOverallStatus.ok",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 89,
+      "line": 91,
       "symbol": "DrivitOverallStatus.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 92,
+      "line": 94,
       "symbol": "DrivitStatusTypeState",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 93,
+      "line": 95,
       "symbol": "DrivitStatusTypeState.ok",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 94,
+      "line": 96,
       "symbol": "DrivitStatusTypeState.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 97,
+      "line": 99,
       "symbol": "DrivitStatusSettingID",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 98,
+      "line": 100,
       "symbol": "DrivitStatusSettingID.location",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 99,
+      "line": 101,
       "symbol": "DrivitStatusSettingID.motion",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 100,
+      "line": 102,
       "symbol": "DrivitStatusSettingID.background",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 101,
+      "line": 103,
       "symbol": "DrivitStatusSettingID.powermode",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 104,
+      "line": 106,
       "symbol": "DrivitStatusType",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"

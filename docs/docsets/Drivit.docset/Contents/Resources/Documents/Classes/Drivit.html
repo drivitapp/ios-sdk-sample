@@ -14,7 +14,7 @@
     <a title="Drivit Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Drivit Docs</a> (47% documented)</p>
+        <p><a href="../index.html">Drivit Docs</a> (46% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -42,9 +42,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Drivit.html">Drivit</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/Drivit/DISyncStatus.html">– DISyncStatus</a>
               </li>
             </ul>
           </li>
@@ -106,9 +103,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DrivitFuelType.html">DrivitFuelType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitLocationManagerType.html">DrivitLocationManagerType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
@@ -570,7 +564,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Login on Drivit service.</p>
+
+<ul>
+<li>type: An object with the authentication type (login/signup).</li>
+<li>completion: A completion block that will be called at the end with the authenticated user.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -580,97 +579,6 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">auth</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIAuth.html">DIAuth</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIUser.html">DIUser</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC5loginyAA6DIAuthO4auth_yAA6ResultOyAA6DIUserVGc10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/login(auth:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC5loginyAA6DIAuthO4auth_yAA6ResultOyAA6DIUserVGc10completiontF">login(auth:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Login on Drivit service.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use auth(type:﹚ instead")</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">auth</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIAuth.html">DIAuth</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIUser.html">DIUser</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>loginObject</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>An object with all the components needed to login.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completion</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A completion block that will be called at the end with the result of the operation.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC6signupyAA6DIAuthO4auth_yAA6ResultOyAA6DIUserVGc10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/signup(auth:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC6signupyAA6DIAuthO4auth_yAA6ResultOyAA6DIUserVGc10completiontF">signup(auth:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Method that will return the current Login status of the user.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use auth(type:﹚ instead")</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">signup</span><span class="p">(</span><span class="nv">auth</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIAuth.html">DIAuth</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIUser.html">DIUser</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>A boolean that if true means the user is currently logged in.</p>
                       </div>
                     </section>
                   </div>
@@ -1664,9 +1572,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6DrivitAAC11runningTripAA0aC9Interface_pSgyF"></a>
+                    <a name="/s:6DrivitAAC11runningTripAA6DITripVSgyF"></a>
                     <a name="//apple_ref/swift/Method/runningTrip()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC11runningTripAA0aC9Interface_pSgyF">runningTrip()</a>
+                    <a class="token" href="#/s:6DrivitAAC11runningTripAA6DITripVSgyF">runningTrip()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1681,7 +1589,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">runningTrip</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DrivitTripInterface.html">DrivitTripInterface</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">runningTrip</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/DITrip.html">DITrip</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -1772,33 +1680,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6DrivitAAC15forceSyncOfTripySS0E4GUID_tF"></a>
-                    <a name="//apple_ref/swift/Method/forceSyncOfTrip(TripGUID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC15forceSyncOfTripySS0E4GUID_tF">forceSyncOfTrip(TripGUID:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Force the sync of the files that still need to be uploaded to the server, if the trip has no files to be synced this method will not do anything.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">forceSyncOfTrip</span><span class="p">(</span><span class="kt">TripGUID</span> <span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:6DrivitAAC32checkIfUserHasTripsOrAccelToSyncAA08CheckAndJ6ResultVyF"></a>
                     <a name="//apple_ref/swift/Method/checkIfUserHasTripsOrAccelToSync()" class="dashAnchor"></a>
                     <a class="token" href="#/s:6DrivitAAC32checkIfUserHasTripsOrAccelToSyncAA08CheckAndJ6ResultVyF">checkIfUserHasTripsOrAccelToSync()</a>
@@ -1826,9 +1707,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6DrivitAAC12DISyncStatusO"></a>
-                    <a name="//apple_ref/swift/Enum/DISyncStatus" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC12DISyncStatusO">DISyncStatus</a>
+                    <a name="/s:6DrivitAAC15forceSyncOfTripySS0E4GUID_tF"></a>
+                    <a name="//apple_ref/swift/Method/forceSyncOfTrip(TripGUID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC15forceSyncOfTripySS0E4GUID_tF">forceSyncOfTrip(TripGUID:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1836,42 +1717,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="../Classes/Drivit/DISyncStatus.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DISyncStatus</span> <span class="p">:</span> <span class="kt">Error</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC13fallbackCheckyySbc10completion_tF"></a>
-                    <a name="//apple_ref/swift/Method/fallbackCheck(completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC13fallbackCheckyySbc10completion_tF">fallbackCheck(completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Force the sync of trips metadata that were edited and need to be uploaded to the server.</p>
+                        <p>Force the sync of the files that still need to be uploaded to the server, if the trip has no files to be synced this method will not do anything.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fallbackCheck</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">forceSyncOfTrip</span><span class="p">(</span><span class="kt">TripGUID</span> <span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1905,134 +1758,12 @@
                     </section>
                   </div>
                 </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC8sendUseryyF"></a>
-                    <a name="//apple_ref/swift/Method/sendUser()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC8sendUseryyF">sendUser()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Force the sync of user settings that were edited.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sendUser</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC10userEditorAA0a12UserSettingsC9Interface_pyF"></a>
-                    <a name="//apple_ref/swift/Method/userEditor()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC10userEditorAA0a12UserSettingsC9Interface_pyF">userEditor()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Method that will get the user settings and a class that will enabble the edition of those settings.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">userEditor</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DrivitUserSettingsEditorInterface.html">DrivitUserSettingsEditorInterface</a></span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>A DrivitUserSettingsEditorInterface protocol.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC35handleEventsForBackgroundURLSessionySS14withIdentifier_yyc10completiontF"></a>
-                    <a name="//apple_ref/swift/Method/handleEventsForBackgroundURLSession(withIdentifier:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC35handleEventsForBackgroundURLSessionySS14withIdentifier_yyc10completiontF">handleEventsForBackgroundURLSession(withIdentifier:completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Required method to be added to the appDelegate. This method will inform the SDK when an event happens with the sync of the files.</p>
-
-<ul>
-<li>SessionIdentifier: The URLSession identifier.</li>
-<li>completion: the completion handler to tell the system we are done.</li>
-</ul>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleEventsForBackgroundURLSession</span><span class="p">(</span><span class="n">withIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6DrivitAAC18applicationDidWakeys10DictionaryVySC29UIApplicationLaunchOptionsKeyVypGSg04withH0_tF"></a>
-                    <a name="//apple_ref/swift/Method/applicationDidWake(withOptions:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC18applicationDidWakeys10DictionaryVySC29UIApplicationLaunchOptionsKeyVypGSg04withH0_tF">applicationDidWake(withOptions:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Required method to be added to the appDelegate. This method will inform the SDK when an event happens in the regions.</p>
-
-<ul>
-<li>options: The URLSession identifier.</li>
-<li>completion: the completion handler to tell the system we are done.</li>
-</ul>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDidWake</span><span class="p">(</span><span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-14)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-09-24)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
