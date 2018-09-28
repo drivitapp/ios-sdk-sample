@@ -2,21 +2,21 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 184,
+      "line": 194,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 185,
+      "line": 195,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 186,
+      "line": 196,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -107,9 +107,23 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 449,
+      "line": 436,
+      "symbol": "Drivit.suspectTrips(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 510,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 535,
+      "symbol": "DrivitDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
@@ -180,132 +194,6 @@
       "line": 29,
       "symbol": "DrivitLoginObject.init(username:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitTripProtocols.swift",
-      "line": 137,
-      "symbol": "DrivitTripEdiortInterface",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 136,
-      "symbol": "DrivitUserInterface",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 137,
-      "symbol": "DrivitUserInterface.getToken()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 138,
-      "symbol": "DrivitUserInterface.getRefreshToken()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 139,
-      "symbol": "DrivitUserInterface.getLastVehicleGuid()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 140,
-      "symbol": "DrivitUserInterface.getLastName()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 141,
-      "symbol": "DrivitUserInterface.getFirstName()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 142,
-      "symbol": "DrivitUserInterface.getLastChange()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 143,
-      "symbol": "DrivitUserInterface.getUserId()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 144,
-      "symbol": "DrivitUserInterface.getInstallGuid()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 145,
-      "symbol": "DrivitUserInterface.getUserType()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 146,
-      "symbol": "DrivitUserInterface.getEmail()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 148,
-      "symbol": "DrivitUserInterface.getSettings()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitUserProtocol.swift",
-      "line": 149,
-      "symbol": "DrivitUserInterface.getAddresses()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
-      "line": 18,
-      "symbol": "DrivitFuelType",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
-      "line": 19,
-      "symbol": "DrivitFuelType.petrol",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
-      "line": 20,
-      "symbol": "DrivitFuelType.diesel",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/EntitysProtocols/DrivitVehicleProtocol.swift",
-      "line": 21,
-      "symbol": "DrivitFuelType.electric",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
