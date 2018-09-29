@@ -2,21 +2,21 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 194,
+      "line": 202,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 195,
+      "line": 203,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 196,
+      "line": 204,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -738,48 +738,55 @@
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 14,
-      "symbol": "DITripFile.blobAuth",
+      "symbol": "DITripFile.closed",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 15,
-      "symbol": "DITripFile.blobAuthError",
+      "symbol": "DITripFile.blobAuth",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 16,
-      "symbol": "DITripFile.didUpload",
+      "symbol": "DITripFile.blobAuthError",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 17,
-      "symbol": "DITripFile.error",
+      "symbol": "DITripFile.didUpload",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 18,
-      "symbol": "DITripFile.filePath",
+      "symbol": "DITripFile.error",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 19,
-      "symbol": "DITripFile.httpError",
+      "symbol": "DITripFile.filePath",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
       "line": 20,
+      "symbol": "DITripFile.httpError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTripFile.swift",
+      "line": 21,
       "symbol": "DITripFile.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
