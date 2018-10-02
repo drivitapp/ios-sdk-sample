@@ -107,21 +107,21 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 436,
+      "line": 446,
       "symbol": "Drivit.suspectTrips(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 510,
+      "line": 520,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 534,
+      "line": 544,
       "symbol": "DrivitDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"

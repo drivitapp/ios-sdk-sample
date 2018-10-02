@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EnumCollection Protocol Reference</title>
+    <title>DIMonitorManager Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/EnumCollection" class="dashAnchor"></a>
-    <a title="EnumCollection Protocol Reference"></a>
+    <a name="//apple_ref/swift/Extension/DIMonitorManager" class="dashAnchor"></a>
+    <a title="DIMonitorManager Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Drivit Docs</a> (37% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        EnumCollection Protocol Reference
+        DIMonitorManager Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -236,15 +236,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>EnumCollection</h1>
+            <h1>DIMonitorManager</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EnumCollection</span> <span class="p">:</span> <span class="kt">Hashable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">DIMonitorManager</span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
-
+            
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -252,67 +251,24 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit14EnumCollectionP5casess11AnySequenceVyxGyFZ"></a>
-                    <a name="//apple_ref/swift/Method/cases()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14EnumCollectionP5casess11AnySequenceVyxGyFZ">cases()</a>
+                    <a name="/s:6Drivit16DIMonitorManagerC4send8feedbackySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/send(feedback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16DIMonitorManagerC4send8feedbackySS_tF">send(feedback:)</a>
                     </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>Undocumented</p>
+                        <p>Allows you to send feedback to our team</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">cases</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AnySequence</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit14EnumCollectionP3allSayxGvpZ"></a>
-                    <a name="//apple_ref/swift/Variable/all" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14EnumCollectionP3allSayxGvpZ">all</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">all</span><span class="p">:</span> <span class="p">[</span><span class="k">Self</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">send</span><span class="p">(</span><span class="nv">feedback</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
