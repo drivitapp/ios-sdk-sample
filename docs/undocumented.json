@@ -2,21 +2,21 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 202,
+      "line": 208,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 203,
+      "line": 209,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 204,
+      "line": 210,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
