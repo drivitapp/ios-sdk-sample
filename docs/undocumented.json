@@ -2,22 +2,71 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 208,
+      "line": 225,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 209,
+      "line": 226,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 210,
+      "line": 227,
       "symbol": "DIVehicleError.tooManyVehicles",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 16,
+      "symbol": "DISnappedPoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 31,
+      "symbol": "DISnappedLocation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 43,
+      "symbol": "DISnapError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 44,
+      "symbol": "DISnapError.missingGoogleAPIKey",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 45,
+      "symbol": "DISnapError.locationsAreNotAvailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 46,
+      "symbol": "DISnapError.loadingSnap",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIRoadManager.swift",
+      "line": 47,
+      "symbol": "DISnapError.other",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -107,21 +156,21 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 446,
+      "line": 478,
       "symbol": "Drivit.suspectTrips(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 513,
+      "line": 545,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 537,
+      "line": 569,
       "symbol": "DrivitDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
@@ -443,63 +492,70 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 29,
+      "line": 25,
+      "symbol": "DITargetVehicleConsumptionData.chargingEvents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
+      "line": 31,
       "symbol": "DITargetVehicleConsumptionData.batteryConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 30,
+      "line": 32,
       "symbol": "DITargetVehicleConsumptionData.areBatteryLevelsAvailable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 32,
+      "line": 34,
       "symbol": "DITargetVehicleConsumptionData.batteryLevel_tripStart",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 33,
+      "line": 35,
       "symbol": "DITargetVehicleConsumptionData.batteryLevel_tripEnd",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 74,
+      "line": 79,
       "symbol": "DITargetVehicleConsumption",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 75,
+      "line": 80,
       "symbol": "DITargetVehicleConsumption.electricityConsumption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 76,
+      "line": 81,
       "symbol": "DITargetVehicleConsumption.modelColdSum",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 77,
+      "line": 82,
       "symbol": "DITargetVehicleConsumption.modelHotSum",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOTargetVehicleConsumption.swift",
-      "line": 78,
+      "line": 83,
       "symbol": "DITargetVehicleConsumption.vehicleType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1586,6 +1642,27 @@
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleSettings.swift",
       "line": 15,
       "symbol": "DIVehicleSettings.fuelPrice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/ReportManager/DIBatteryLevelConsumption.swift",
+      "line": 11,
+      "symbol": "DIChargingEvent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/ReportManager/DIBatteryLevelConsumption.swift",
+      "line": 12,
+      "symbol": "DIChargingEvent.chargingRuleId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/ReportManager/DIBatteryLevelConsumption.swift",
+      "line": 13,
+      "symbol": "DIChargingEvent.tsStart",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
