@@ -156,6 +156,13 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
+      "line": 82,
+      "symbol": "Drivit.snappedLocationsForTrip(guid:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
       "line": 478,
       "symbol": "Drivit.suspectTrips(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -173,6 +180,34 @@
       "line": 569,
       "symbol": "DrivitDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/AES256CBC.swift",
+      "line": null,
+      "symbol": "AESCipher",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/AES256CBC.swift",
+      "line": 13,
+      "symbol": "Random.generate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/AES256CBC.swift",
+      "line": 60,
+      "symbol": "AES256CBC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/AES256CBC.swift",
+      "line": 612,
+      "symbol": "AESCipher.init(key:iv:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
