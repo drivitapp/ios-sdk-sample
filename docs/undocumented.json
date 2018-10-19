@@ -2,28 +2,28 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 240,
+      "line": 192,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 241,
+      "line": 193,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 242,
+      "line": 194,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 243,
+      "line": 195,
       "symbol": "DIVehicleError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -1730,85 +1730,99 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 89,
       "symbol": "DrivitOverallStatus",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 90,
       "symbol": "DrivitOverallStatus.ok",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 91,
       "symbol": "DrivitOverallStatus.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 94,
       "symbol": "DrivitStatusTypeState",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 95,
       "symbol": "DrivitStatusTypeState.ok",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 96,
       "symbol": "DrivitStatusTypeState.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 99,
       "symbol": "DrivitStatusSettingID",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 100,
       "symbol": "DrivitStatusSettingID.location",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 101,
       "symbol": "DrivitStatusSettingID.motion",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 102,
       "symbol": "DrivitStatusSettingID.background",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
       "line": 103,
       "symbol": "DrivitStatusSettingID.powermode",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Settings/DrivitStatusManager.swift",
-      "line": 106,
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
+      "line": 104,
+      "symbol": "DrivitStatusSettingID.wifi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
+      "line": 105,
+      "symbol": "DrivitStatusSettingID.internet",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
+      "line": 108,
       "symbol": "DrivitStatusType",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
