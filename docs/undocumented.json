@@ -1787,49 +1787,7 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 100,
-      "symbol": "DrivitStatusSettingID.location",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 101,
-      "symbol": "DrivitStatusSettingID.motion",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 102,
-      "symbol": "DrivitStatusSettingID.background",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 103,
-      "symbol": "DrivitStatusSettingID.powermode",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 104,
-      "symbol": "DrivitStatusSettingID.wifi",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 105,
-      "symbol": "DrivitStatusSettingID.internet",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/StatusManager/DrivitStatusManager.swift",
-      "line": 108,
+      "line": 137,
       "symbol": "DrivitStatusType",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
