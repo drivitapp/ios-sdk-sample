@@ -14,7 +14,7 @@
     <a title="Enumerations  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Drivit Docs</a> (39% documented)</p>
+        <p><a href="index.html">Drivit Docs</a> (40% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -33,6 +33,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="Classes/AES256CBC.html">AES256CBC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DIEditor.html">DIEditor</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/DIReport.html">DIReport</a>
@@ -64,6 +67,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/DIAuthError.html">DIAuthError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DIBackgroundFetchInterval.html">DIBackgroundFetchInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
@@ -559,6 +568,66 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit23DIBackgroundFetchResultO"></a>
+                    <a name="//apple_ref/swift/Enum/DIBackgroundFetchResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit23DIBackgroundFetchResultO">DIBackgroundFetchResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enum that defines the background fetch result</p>
+
+                        <a href="Enums/DIBackgroundFetchResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIBackgroundFetchResult</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit25DIBackgroundFetchIntervalO"></a>
+                    <a name="//apple_ref/swift/Enum/DIBackgroundFetchInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit25DIBackgroundFetchIntervalO">DIBackgroundFetchInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constant that indicate the interval of a background fetch operation.</p>
+
+                        <a href="Enums/DIBackgroundFetchInterval.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIBackgroundFetchInterval</span> <span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -657,7 +726,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIChargingRuleIds</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIChargingRuleIds</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
                         </div>
                       </div>
@@ -970,7 +1039,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-10-30)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-11-07)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
