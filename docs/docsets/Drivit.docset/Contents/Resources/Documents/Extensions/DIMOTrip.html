@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DIChargingRule Structure Reference</title>
+    <title>DIMOTrip Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/DIChargingRule" class="dashAnchor"></a>
-    <a title="DIChargingRule Structure Reference"></a>
+    <a name="//apple_ref/swift/Extension/DIMOTrip" class="dashAnchor"></a>
+    <a title="DIMOTrip Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Drivit Docs</a> (21% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DIChargingRule Structure Reference
+        DIMOTrip Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -296,10 +296,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DIChargingRule</h1>
+            <h1>DIMOTrip</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DIChargingRule</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">DIMOTrip</span> <span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">,</span> <span class="kt">DIParsedItem</span></code></pre>
 
                 </div>
               </div>
@@ -312,9 +312,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit14DIChargingRuleV19batteryThreshold_evs5Int64Vvp"></a>
-                    <a name="//apple_ref/swift/Property/batteryThreshold_ev" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV19batteryThreshold_evs5Int64Vvp">batteryThreshold_ev</a>
+                    <a name="/c:@CM@Drivit@objc(cs)DIMOTrip(im)addDevicesObject:"></a>
+                    <a name="//apple_ref/swift/Method/addToDevices(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Drivit@objc(cs)DIMOTrip(im)addDevicesObject:">addToDevices(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -329,7 +329,9 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">batteryThreshold_ev</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc(addDevicesObject:)</span>
+<span class="kd">@NSManaged</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">addToDevices</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">DIMOPresentDevice</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -339,9 +341,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit14DIChargingRuleV21batteryThreshold_phevs5Int64Vvp"></a>
-                    <a name="//apple_ref/swift/Property/batteryThreshold_phev" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV21batteryThreshold_phevs5Int64Vvp">batteryThreshold_phev</a>
+                    <a name="/c:@CM@Drivit@objc(cs)DIMOTrip(im)removeDevicesObject:"></a>
+                    <a name="//apple_ref/swift/Method/removeFromDevices(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Drivit@objc(cs)DIMOTrip(im)removeDevicesObject:">removeFromDevices(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -356,7 +358,9 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">batteryThreshold_phev</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc(removeDevicesObject:)</span>
+<span class="kd">@NSManaged</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeFromDevices</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">DIMOPresentDevice</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -366,9 +370,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit14DIChargingRuleV16daysOfChargingIds5Int64Vvp"></a>
-                    <a name="//apple_ref/swift/Property/daysOfChargingId" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV16daysOfChargingIds5Int64Vvp">daysOfChargingId</a>
+                    <a name="/c:@CM@Drivit@objc(cs)DIMOTrip(im)addDevices:"></a>
+                    <a name="//apple_ref/swift/Method/addToDevices(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Drivit@objc(cs)DIMOTrip(im)addDevices:">addToDevices(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -383,7 +387,9 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">daysOfChargingId</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc(addDevices:)</span>
+<span class="kd">@NSManaged</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">addToDevices</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="kt">NSSet</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -393,9 +399,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit14DIChargingRuleV16electricityPriceSdvp"></a>
-                    <a name="//apple_ref/swift/Property/electricityPrice" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV16electricityPriceSdvp">electricityPrice</a>
+                    <a name="/c:@CM@Drivit@objc(cs)DIMOTrip(im)removeDevices:"></a>
+                    <a name="//apple_ref/swift/Method/removeFromDevices(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Drivit@objc(cs)DIMOTrip(im)removeDevices:">removeFromDevices(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -410,88 +416,9 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">electricityPrice</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit14DIChargingRuleV9hourOfDays5Int64Vvp"></a>
-                    <a name="//apple_ref/swift/Property/hourOfDay" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV9hourOfDays5Int64Vvp">hourOfDay</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hourOfDay</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit14DIChargingRuleV6ruleIds5Int64Vvp"></a>
-                    <a name="//apple_ref/swift/Property/ruleId" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV6ruleIds5Int64Vvp">ruleId</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ruleId</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit14DIChargingRuleV9ruleStateSbvp"></a>
-                    <a name="//apple_ref/swift/Property/ruleState" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit14DIChargingRuleV9ruleStateSbvp">ruleState</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ruleState</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc(removeDevices:)</span>
+<span class="kd">@NSManaged</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeFromDevices</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="kt">NSSet</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
