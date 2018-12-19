@@ -277,12 +277,21 @@
 <p><a href="https://img.shields.io/badge/Pod-1.7.0-blue.svg"><img src="https://img.shields.io/badge/Pod-1.7.0-blue.svg" alt="CocoaPods Compatible"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg" alt="Platform"></a></p>
 
 <p>Meet Drivit, an SDK that helps you in your day-to-day activities while making you a better driver.</p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p><strong>Getting Started:</strong></p>
 
 <ul>
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="https://drivitapp.github.io/ios-sdk-sample/">Documentation</a></li>
-<li><a href="https://github.com/drivitapp/iOS-SDK/blob/master/USAGE.md">Usage</a></li>
+</ul>
+
+<p><strong>Using the SDK:</strong></p>
+
+<ul>
+<li><a href="#capabilities">Xcode Capabilities</a></li>
+<li><a href="#usage">Usage</a></li>
 </ul>
 <h2 id='requirements' class='heading'>Requirements</h2>
 
@@ -317,7 +326,7 @@
 <span class="n">use_frameworks!</span>
 
 <span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
-    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 1.7.0'</span>
+    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'1.7.0'</span>
 <span class="k">end</span>
 </code></pre>
 
@@ -328,9 +337,101 @@
 <h4 id='1-add-the-drivit-sdk-framework-to-your-app-bundle' class='heading'>1. Add the Drivit SDK framework to your app bundle</h4>
 
 <p>To get the Drivit SDK framework contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
-<h4 id='2-make-sure-your-project-is-running-swift-4-0-or-higher' class='heading'>2. Make sure your project is running swift 4.0 or higher.</h4>
+<h2 id='capabilities' class='heading'>Capabilities</h2>
 
-<p>With these three steps, your app should be already compiling the Drivit SDK. Now let&rsquo;s put it to work</p>
+<p>Add the following capabilities to your Xcode project</p>
+
+<ul>
+<li><p>Background Modes</p>
+
+<ul>
+<li>Location Updates - Allows us to run locations update in the background</li>
+<li>Background Fetch - Allows us to run periodically in the background so that we can update its content</li>
+<li>Remote Notifications - Allows us to process background update notifications</li>
+</ul></li>
+<li><p>Push Notifications</p></li>
+</ul>
+<h2 id='usage' class='heading'>Usage</h2>
+<h4 id='1-lets-prepare-your-app-delegate' class='heading'>1. Lets prepare your app delegate</h4>
+
+<p>Lets start by adding the following code to your App Delegate so Drivit is able to know the reason why the app was launched (if any), such as notifications and locations update:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="p">{</span>
+    <span class="o">...</span>
+
+    <span class="c1">// Register Drivit SDK to handle locations and notifications events</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="nv">withOptions</span><span class="p">:</span> <span class="n">launchOptions</span><span class="p">)</span>
+    <span class="n">application</span><span class="o">.</span><span class="nf">registerForRemoteNotifications</span><span class="p">()</span>
+
+    <span class="o">...</span>
+
+    <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre>
+<h4 id='2-update-the-sdk-with-background-app-refresh' class='heading'>2. Update the SDK with Background App Refresh</h4>
+
+<p>After that, we need to setup the Background App Refresh interval. This allow the SDK to run periodically in the background so that it can update its content. To do so, lets include the following code in your App Delegate:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="p">{</span>
+    <span class="o">...</span>
+
+    <span class="c1">// Setup background fetch interval</span>
+    <span class="k">let</span> <span class="nv">interval</span> <span class="o">=</span> <span class="kt">DIBackgroundFetchInterval</span><span class="o">.</span><span class="n">daily</span><span class="o">.</span><span class="n">rawValue</span>
+    <span class="n">application</span><span class="o">.</span><span class="nf">setMinimumBackgroundFetchInterval</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+
+    <span class="o">...</span>
+
+    <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>After that, you are able to subscribe to the following delegate so we can let you know if new content has arrived during those executions:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">performFetchWithCompletionHandler</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">performFetchWithCompletionHandler</span> <span class="p">{</span> <span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="k">in</span>
+        <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="o">.</span><span class="nv">newData</span><span class="p">:</span> <span class="nf">completionHandler</span><span class="p">(</span><span class="o">.</span><span class="n">newData</span><span class="p">)</span>
+            <span class="k">case</span> <span class="o">.</span><span class="nv">noData</span><span class="p">:</span> <span class="nf">completionHandler</span><span class="p">(</span><span class="o">.</span><span class="n">noData</span><span class="p">)</span>
+            <span class="k">case</span> <span class="o">.</span><span class="nv">failed</span><span class="p">:</span> <span class="nf">completionHandler</span><span class="p">(</span><span class="o">.</span><span class="n">failed</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h4 id='3-add-relevant-google-maps-api-keys' class='heading'>3. Add relevant Google Maps API Keys</h4>
+
+<p>To provide an improved user experience, Drivit uses Google APIs. Feel free to set this key where it better suits your architecture.</p>
+<pre class="highlight swift"><code><span class="c1">// Setup Google API Key</span>
+<span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">googleAPIKey</span> <span class="o">=</span> <span class="s">"YOU_API_KEY"</span>
+</code></pre>
+<h4 id='4-login-signup-your-user' class='heading'>4. Login/signup your user</h4>
+
+<p>Now we have everything ready, we have to login the user into the SDK before it starts recording trips.
+To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a></code> object and provide it with the info of your user:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">simple</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">regular</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="s">"email"</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="s">"password"</span><span class="p">)</span>
+<span class="c1">// OR</span>
+<span class="k">let</span> <span class="nv">advanced</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">advance</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="s">"secret"</span><span class="p">)</span>
+
+<span class="k">let</span> <span class="nv">type</span> <span class="o">=</span> <span class="kt">DIAuth</span><span class="o">.</span><span class="nf">login</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">simple</span><span class="p">)</span>
+
+<span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">auth</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">type</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span> <span class="k">in</span>                
+    <span class="k">switch</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="n">user</span><span class="p">):</span> 
+            <span class="nf">print</span><span class="p">(</span><span class="s">"Welcome "</span> <span class="o">+</span> <span class="n">user</span><span class="o">.</span><span class="n">firstName</span><span class="p">)</span>
+        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">error</span><span class="p">(</span><span class="n">error</span><span class="p">):</span> 
+            <span class="nf">print</span><span class="p">(</span><span class="s">"An error ocurred: "</span> <span class="o">+</span> <span class="n">error</span><span class="o">.</span><span class="n">localizedDescription</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h4 id='5-push-notifications' class='heading'>5. Push Notifications</h4>
+
+<p>To keep your content up to date, it is important to subscribe to push notifications. This way, every time we have some new content/data ready to improve user experience, we can let the SDK know.</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didReceiveRemoteNotification</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">fetchCompletionHandler</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Validate if the push notification received</span>
+    <span class="c1">// is supposed to be handle by the SDK</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="n">userInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="n">completionHandler</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>And that is it! Safe trips!</p>
+
+<p>The Drivit Team</p>
 <h2 id='license' class='heading'>License</h2>
 
 <p>Copyright &copy; 2018 Bahub Business Analysis Systems, Lda. <a href="https://github.com/drivitapp/iOS-core/blob/master/LICENSE">See LICENSE</a> for details.</p>
@@ -338,7 +439,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-12-17)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-12-19)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
