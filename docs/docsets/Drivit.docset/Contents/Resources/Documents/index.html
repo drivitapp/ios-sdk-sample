@@ -274,17 +274,16 @@
 </p>
 <h1 id='drivit' class='heading'>Drivit</h1>
 
-<p><a href="https://img.shields.io/badge/Pod-1.7.0-blue.svg"><img src="https://img.shields.io/badge/Pod-1.7.0-blue.svg" alt="CocoaPods Compatible"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg" alt="Platform"></a></p>
+<p><a href="https://img.shields.io/badge/Pod-1.7.1-blue.svg"><img src="https://img.shields.io/badge/Pod-1.7.1-blue.svg" alt="CocoaPods Compatible"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg" alt="Platform"></a></p>
 
-<p>Meet Drivit, an SDK that helps you in your day-to-day activities while making you a better driver.</p>
-<h2 id='documentation' class='heading'>Documentation</h2>
+<p>This is a sample project that outlines the key steps to integrate the Drivit iOS SDK into your application and put it to work. Should you have any doubt, feel free to contact us at <a href="mailto:support@drivit.com">support@drivit.com</a></p>
 
 <p><strong>Getting Started:</strong></p>
 
 <ul>
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#installation">Installation</a></li>
-<li><a href="https://drivitapp.github.io/ios-sdk-sample/">Documentation</a></li>
+<li><a href="#documentation">Documentation</a></li>
 </ul>
 
 <p><strong>Using the SDK:</strong></p>
@@ -326,7 +325,7 @@
 <span class="n">use_frameworks!</span>
 
 <span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
-    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'1.7.0'</span>
+    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 1.7.1'</span>
 <span class="k">end</span>
 </code></pre>
 
@@ -339,7 +338,7 @@
 <p>To get the Drivit SDK framework contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
 <h2 id='capabilities' class='heading'>Capabilities</h2>
 
-<p>Add the following capabilities to your Xcode project</p>
+<p>Add the following capabilities to your Xcode project:</p>
 
 <ul>
 <li><p>Background Modes</p>
@@ -352,9 +351,9 @@
 <li><p>Push Notifications</p></li>
 </ul>
 <h2 id='usage' class='heading'>Usage</h2>
-<h4 id='1-lets-prepare-your-app-delegate' class='heading'>1. Lets prepare your app delegate</h4>
+<h4 id='1-let-39-s-prepare-your-app-delegate' class='heading'>1. Let&rsquo;s prepare your app delegate</h4>
 
-<p>Lets start by adding the following code to your App Delegate so Drivit is able to know the reason why the app was launched (if any), such as notifications and locations update:</p>
+<p>Let&rsquo;s start by adding the following code to your App Delegate so Drivit is able to know the reason why the app was launched (if any), such as notifications and locations update:</p>
 <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="p">{</span>
     <span class="o">...</span>
 
@@ -396,7 +395,7 @@
 </code></pre>
 <h4 id='3-add-relevant-google-maps-api-keys' class='heading'>3. Add relevant Google Maps API Keys</h4>
 
-<p>To provide an improved user experience, Drivit uses Google APIs. Feel free to set this key where it better suits your architecture.</p>
+<p>To provide an improved user experience, Drivit uses Google APIs. Feel free to set this key where it better suits your architecture:</p>
 <pre class="highlight swift"><code><span class="c1">// Setup Google API Key</span>
 <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">googleAPIKey</span> <span class="o">=</span> <span class="s">"YOU_API_KEY"</span>
 </code></pre>
@@ -421,7 +420,7 @@ To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a>
 </code></pre>
 <h4 id='5-push-notifications' class='heading'>5. Push Notifications</h4>
 
-<p>To keep your content up to date, it is important to subscribe to push notifications. This way, every time we have some new content/data ready to improve user experience, we can let the SDK know.</p>
+<p>To keep your content up to date, it is important to subscribe to push notifications. This way, every time we have some new content/data ready to improve user experience, we can let the app know:</p>
 <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didReceiveRemoteNotification</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">fetchCompletionHandler</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="p">{</span>
     <span class="c1">// Validate if the push notification received</span>
     <span class="c1">// is supposed to be handle by the SDK</span>
@@ -432,6 +431,9 @@ To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a>
 <p>And that is it! Safe trips!</p>
 
 <p>The Drivit Team</p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>You can see the complete reference documentation <a href="https://drivitapp.github.io/ios-sdk-sample/">here</a></p>
 <h2 id='license' class='heading'>License</h2>
 
 <p>Copyright &copy; 2018 Bahub Business Analysis Systems, Lda. <a href="https://github.com/drivitapp/iOS-core/blob/master/LICENSE">See LICENSE</a> for details.</p>
@@ -439,7 +441,7 @@ To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2018-12-19)</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-01-22)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
