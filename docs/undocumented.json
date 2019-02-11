@@ -2,28 +2,28 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 374,
+      "line": 388,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 375,
+      "line": 389,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 376,
+      "line": 390,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 377,
+      "line": 391,
       "symbol": "DIVehicleError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -177,35 +177,28 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 23,
-      "symbol": "DIBackgroundFetchInterval.daily",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 88,
+      "line": 97,
       "symbol": "Drivit.snappedLocationsForTrip(guid:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 598,
+      "line": 603,
       "symbol": "Drivit.suspectTrips(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 674,
+      "line": 679,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 703,
+      "line": 707,
       "symbol": "DrivitDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
@@ -233,9 +226,58 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/AES256CBC.swift",
-      "line": 612,
+      "line": 633,
       "symbol": "AESCipher.init(key:iv:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 40,
+      "symbol": "CompressionLevel.noCompression",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 41,
+      "symbol": "CompressionLevel.bestSpeed",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 42,
+      "symbol": "CompressionLevel.bestCompression",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 44,
+      "symbol": "CompressionLevel.defaultCompression",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 51,
+      "symbol": "CompressionLevel.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 64,
+      "symbol": "GzipError.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
+      "line": 141,
+      "symbol": "GzipError.localizedDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {

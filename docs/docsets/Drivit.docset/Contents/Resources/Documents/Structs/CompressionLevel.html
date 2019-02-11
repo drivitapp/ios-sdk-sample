@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DIBackgroundFetchInterval Enumeration Reference</title>
+    <title>CompressionLevel Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,11 +10,11 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/DIBackgroundFetchInterval" class="dashAnchor"></a>
-    <a title="DIBackgroundFetchInterval Enumeration Reference"></a>
+    <a name="//apple_ref/swift/Struct/CompressionLevel" class="dashAnchor"></a>
+    <a title="CompressionLevel Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Drivit Docs</a> (39% documented)</p>
+        <p><a href="../index.html">Drivit Docs</a> (41% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Drivit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DIBackgroundFetchInterval Enumeration Reference
+        CompressionLevel Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -67,9 +67,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DIAuthError.html">DIAuthError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIBackgroundFetchInterval.html">DIBackgroundFetchInterval</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
@@ -151,6 +148,9 @@
               <li class="nav-group-task">
                 <a href="../Extensions/DIMonitorManager.html">DIMonitorManager</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -184,6 +184,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DIChargingEvent.html">DIChargingEvent</a>
@@ -249,6 +252,12 @@
                 <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/Random.html">Random</a>
               </li>
             </ul>
@@ -269,14 +278,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DIBackgroundFetchInterval</h1>
+            <h1>CompressionLevel</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DIBackgroundFetchInterval</span> <span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CompressionLevel</span> <span class="p">:</span> <span class="kt">RawRepresentable</span></code></pre>
 
                 </div>
               </div>
-            <p>Constant that indicate the interval of a background fetch operation.</p>
+            <p>Compression level whose rawValue is based on the zlib&rsquo;s constants.</p>
 
           </section>
           <section class="section task-group-section">
@@ -285,9 +294,36 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit25DIBackgroundFetchIntervalO5dailyyA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/daily" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit25DIBackgroundFetchIntervalO5dailyyA2CmF">daily</a>
+                    <a name="/s:6Drivit16CompressionLevelV8rawValues5Int32Vvp"></a>
+                    <a name="//apple_ref/swift/Property/rawValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelV8rawValues5Int32Vvp">rawValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compression level in the range of <code>0</code> (no compression) to <code>9</code> (maximum compression).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">Int32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit16CompressionLevelV02noB0ACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/noCompression" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelV02noB0ACvpZ">noCompression</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -302,7 +338,141 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">daily</span> <span class="o">=</span> <span class="mi">86400</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">noCompression</span><span class="p">:</span> <span class="kt">CompressionLevel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit16CompressionLevelV9bestSpeedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/bestSpeed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelV9bestSpeedACvpZ">bestSpeed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">bestSpeed</span><span class="p">:</span> <span class="kt">CompressionLevel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit16CompressionLevelV04bestB0ACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/bestCompression" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelV04bestB0ACvpZ">bestCompression</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">bestCompression</span><span class="p">:</span> <span class="kt">CompressionLevel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit16CompressionLevelV07defaultB0ACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultCompression" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelV07defaultB0ACvpZ">defaultCompression</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">defaultCompression</span><span class="p">:</span> <span class="kt">CompressionLevel</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SY8rawValuexSg03RawB0Qz_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(rawValue:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SY8rawValuexSg03RawB0Qz_tcfc">init(rawValue:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit16CompressionLevelVyACs5Int32Vcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit16CompressionLevelVyACs5Int32Vcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -314,7 +484,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-01-22)</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-02-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
