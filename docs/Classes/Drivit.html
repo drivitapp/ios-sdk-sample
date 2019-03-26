@@ -177,6 +177,9 @@
               <li class="nav-group-task">
                 <a href="../Protocols/EnumCollection.html">EnumCollection</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnumerableEnum.html">EnumerableEnum</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -568,6 +571,33 @@ This api key is safely secured on the sdk&rsquo;s side using state-of-the-art en
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6DrivitAAC15enableDebugModeyyF"></a>
+                    <a name="//apple_ref/swift/Method/enableDebugMode()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC15enableDebugModeyyF">enableDebugMode()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enables debug mode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">enableDebugMode</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -711,6 +741,17 @@ default rules. The order is not guaranteed</p>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Authentication"></a>
+                <a name="//apple_ref/swift/Section/Authentication" class="dashAnchor"></a>
+                <a href="#/Authentication">
+                  <h3 class="section-name">Authentication</h3>
+                </a>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -838,6 +879,10 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>It&rsquo;s called only when your app is running in the foreground to handle the notification.</p>
 
+<ul>
+<li>userInfo: Contains notification details</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -846,25 +891,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>userInfo</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Contains notification details</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -884,6 +910,10 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Tells the SDK that a remote notification arrived that indicates there is data to be fetched.</p>
 
+<ul>
+<li>userInfo: Contains notification details</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -892,25 +922,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>userInfo</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Contains notification details</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1011,7 +1022,35 @@ default rules. The order is not guaranteed</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">currentVehicle</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIVehicle.html">DIVehicle</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use currentVehicle(﹚ instead")</span>
+<span class="kd">func</span> <span class="nf">currentVehicle</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIVehicle.html">DIVehicle</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6DrivitAAC14currentVehicleAA6ResultOyAA9DIVehicleVGyF"></a>
+                    <a name="//apple_ref/swift/Method/currentVehicle()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC14currentVehicleAA6ResultOyAA9DIVehicleVGyF">currentVehicle()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get user vehicle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">currentVehicle</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DIVehicle.html">DIVehicle</a></span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -1087,6 +1126,11 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Get the makers of cars given a year and fuel</p>
 
+<ul>
+<li>year: Year to search</li>
+<li>fuel: fuel type of the search</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1095,37 +1139,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">carMakes</span><span class="p">(</span><span class="nv">year</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuel.html">DIFuel</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt">String</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>year</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Year to search</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>fuel</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>fuel type of the search</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1145,6 +1158,11 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Get the models of cars given a maker and fuel</p>
 
+<ul>
+<li>maker: Maker to search</li>
+<li>fuel: fuel type of the search</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1153,37 +1171,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">carModels</span><span class="p">(</span><span class="nv">make</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuel.html">DIFuel</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>maker</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Maker to search</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>fuel</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>fuel type of the search</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1203,6 +1190,12 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Get the cars given a maker, fuel and model</p>
 
+<ul>
+<li>maker: Maker to search</li>
+<li>fuel: fuel type of the search</li>
+<li>subModel: SubModel of the search</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1211,49 +1204,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">carVersions</span><span class="p">(</span><span class="nv">make</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fuel</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuel.html">DIFuel</a></span><span class="p">,</span> <span class="nv">subModel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>maker</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Maker to search</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>fuel</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>fuel type of the search</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>subModel</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>SubModel of the search</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1273,6 +1223,10 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Add an Vehicle to the user</p>
 
+<ul>
+<li>vehicle: vehicle to be added</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1281,25 +1235,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">vehicle</span><span class="p">:</span> <span class="kt"><a href="../Structs/DIVehicle.html">DIVehicle</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>vehicle</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>vehicle to be added</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1319,6 +1254,10 @@ default rules. The order is not guaranteed</p>
                       <div class="abstract">
                         <p>Remove an Vehicle to the user</p>
 
+<ul>
+<li>guid: Guid of the car</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1327,25 +1266,6 @@ default rules. The order is not guaranteed</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>guid</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Guid of the car</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1439,6 +1359,94 @@ default rules. The order is not guaranteed</p>
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6DrivitAAC27isWaitingForConsumptionData4guidSbSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/isWaitingForConsumptionData(guid:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC27isWaitingForConsumptionData4guidSbSS_tF">isWaitingForConsumptionData(guid:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether the SDK is still waiting for consumption data to arrive from Drivit servers or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isWaitingForConsumptionData</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6DrivitAAC15fuelConsumption4guidSdSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/fuelConsumption(guid:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC15fuelConsumption4guidSdSS_tF">fuelConsumption(guid:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the fuel consumption of the trip, in l/100km. This method may return one of three cases:</p>
+
+<ol>
+<li>If the user manually edited the consumption of the trip, it will return the value inserted</li>
+<li>If a good-accuracy fuel consumption estimate exists, it will return it</li>
+<li>If the consumption analysis wasn&rsquo;t performed yet or if it&rsquo;s low-accuracy estimate, it will fallback
+to the vehicle average as provided by{@link VehicleSettings#getCurrentConsumptionValue()}</li>
+</ol>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fuelConsumption</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6DrivitAAC8fuelCost4guidSdSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/fuelCost(guid:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6DrivitAAC8fuelCost4guidSdSS_tF">fuelCost(guid:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The money spent in fuel in the trip as a function of the fuel consumption given by {@link #getFuelConsumption()}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fuelCost</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -1466,6 +1474,10 @@ default rules. The order is not guaranteed</p>
                         <p>Method to determine whether the trip has been processed by the Drivit server and has its automatic
 classification available</p>
 
+<ul>
+<li>guid: trip identifier</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1474,25 +1486,6 @@ classification available</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hasAutomaticClassification</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>guid</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>trip identifier</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1513,6 +1506,14 @@ classification available</p>
                         <p>Returns the rejected reason or, in other words, the validity state of this trip. The default value
 is -2, meaning no conclusion has been taken as to if the trip belongs to the user or not.</p>
 
+<ul>
+<li>guid: trip identifier</li>
+<li>mergeWithServer: false to retrieve a value without analysis from Drivit server (e.g. the user
+may reject the trip directly on the phone), true if you want to merge both results.
+When merging, any potential user input will always have precedence over
+the analysis from the Drivit server.</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1521,40 +1522,6 @@ is -2, meaning no conclusion has been taken as to if the trip belongs to the use
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">rejectedReason</span><span class="p">(</span><span class="nv">guid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">mergeWithServer</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>guid</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>trip identifier</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>mergeWithServer</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>false to retrieve a value without analysis from Drivit server (e.g. the user
-may reject the trip directly on the phone), true if you want to merge both results.
-When merging, any potential user input will always have precedence over
-the analysis from the Drivit server.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -1785,33 +1752,6 @@ if the user explicitly tells the app to end it, e.g. through a <q>I&rsquo;ve arr
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6DrivitAAC12suspectTrips10completionyySayAA6DITripVGc_tF"></a>
-                    <a name="//apple_ref/swift/Method/suspectTrips(completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6DrivitAAC12suspectTrips10completionyySayAA6DITripVGc_tF">suspectTrips(completion:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">suspectTrips</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">([</span><span class="kt"><a href="../Structs/DITrip.html">DITrip</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:6DrivitAAC9locations4guid10completionySS_yAA6ResultOySayAA17DIVehicleLocationVGGctF"></a>
                     <a name="//apple_ref/swift/Method/locations(guid:completion:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:6DrivitAAC9locations4guid10completionySS_yAA6ResultOySayAA17DIVehicleLocationVGGctF">locations(guid:completion:)</a>
@@ -1978,6 +1918,10 @@ if the user explicitly tells the app to end it, e.g. through a <q>I&rsquo;ve arr
                       <div class="abstract">
                         <p>To setup a delegate to listen to events given by the SDK. This events are for example: Trip did start, Trip did stop</p>
 
+<ul>
+<li>delegate: A delegate that conforms to the DrivitModelDelegate protocol will receive the events.</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1986,25 +1930,6 @@ if the user explicitly tells the app to end it, e.g. through a <q>I&rsquo;ve arr
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">delegate</span><span class="p">(</span><span class="n">_</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DrivitDelegate.html">DrivitDelegate</a></span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>delegate</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A delegate that conforms to the DrivitModelDelegate protocol will receive the events.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -2110,6 +2035,11 @@ if the user explicitly tells the app to end it, e.g. through a <q>I&rsquo;ve arr
                         <p>Force-syncs all trip-related info, even if the user is not on wifi. Take care with this method
 as it can consume a large amount of mobile data.</p>
 
+<ul>
+<li>includeScoringData: argument that specifies which data should be synced. If false, it will only sync
+data required to estimate the trip consumptions. If true, it will also sync data required for scoring and trip classification.</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -2119,26 +2049,6 @@ as it can consume a large amount of mobile data.</p>
 
                         </div>
                       </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>includeScoringData</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>argument that specifies which data should be synced. If false, it will only sync
-data required to estimate the trip consumptions. If true, it will also sync data required for scoring and trip classification.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                     </section>
                   </div>
                 </li>
@@ -2147,7 +2057,7 @@ data required to estimate the trip consumptions. If true, it will also sync data
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-02-25)</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-03-25)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
