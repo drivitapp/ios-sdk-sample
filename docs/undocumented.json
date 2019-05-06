@@ -2,35 +2,35 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 396,
+      "line": 410,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 397,
+      "line": 411,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 398,
+      "line": 412,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 399,
+      "line": 413,
       "symbol": "DIVehicleError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 1681,
+      "line": 1516,
       "symbol": "DIMonitorManager.enableDebugMode()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -82,6 +82,13 @@
       "line": 47,
       "symbol": "DISnapError.other",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DITripManager/DILocationManager/SwiftLocation/SwiftyJSON.swift",
+      "line": null,
+      "symbol": "JSON",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -191,14 +198,14 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 716,
+      "line": 724,
       "symbol": "Drivit.checkIfUserHasTripsOrAccelToSync()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Drivit.swift",
-      "line": 744,
+      "line": 752,
       "symbol": "DrivitDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
@@ -232,50 +239,99 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/CLLocationCoordinate2D+Equatable.swift",
+      "line": 14,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 59,
+      "symbol": "Data.CompressionAlgorithm.zlib",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 60,
+      "symbol": "Data.CompressionAlgorithm.lzfse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 61,
+      "symbol": "Data.CompressionAlgorithm.lzma",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 62,
+      "symbol": "Data.CompressionAlgorithm.lz4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 256,
+      "symbol": "Crc32.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+Compression.swift",
+      "line": 345,
+      "symbol": "Adler32.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 40,
+      "line": 43,
       "symbol": "CompressionLevel.noCompression",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 41,
+      "line": 44,
       "symbol": "CompressionLevel.bestSpeed",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 42,
+      "line": 45,
       "symbol": "CompressionLevel.bestCompression",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 44,
+      "line": 47,
       "symbol": "CompressionLevel.defaultCompression",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 51,
+      "line": 54,
       "symbol": "CompressionLevel.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 64,
+      "line": 65,
       "symbol": "GzipError.Kind",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Data+GZip.swift",
-      "line": 141,
+      "line": 131,
       "symbol": "GzipError.localizedDescription",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -354,27 +410,6 @@
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Keychain.swift",
       "line": null,
       "symbol": "Keychain",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/ServiceLocator/DIServiceLocator+Dependencies.swift",
-      "line": 9,
-      "symbol": "DIAccountManagerDependency",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/ServiceLocator/DIServiceLocator+Dependencies.swift",
-      "line": 10,
-      "symbol": "DISettingsManagerDependency",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/LocationManager/SwiftLocation/SwiftyJSON.swift",
-      "line": null,
-      "symbol": "JSON",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -1677,7 +1712,7 @@
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleLocation.swift",
       "line": 13,
       "symbol": "DIVehicleLocation",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
@@ -1775,7 +1810,7 @@
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PersistentManager/DIEntities/DIMOVehicleMotion.swift",
       "line": 13,
       "symbol": "DIVehicleMotion",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {

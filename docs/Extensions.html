@@ -14,7 +14,7 @@
     <a title="Extensions  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Drivit Docs</a> (41% documented)</p>
+        <p><a href="index.html">Drivit Docs</a> (43% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -45,6 +45,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DIVehicleLocation.html">DIVehicleLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DIVehicleMotion.html">DIVehicleMotion</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Drivit.html">Drivit</a>
@@ -151,19 +157,24 @@
               <li class="nav-group-task">
                 <a href="Extensions/Data.html">Data</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Protocols.html#/s:6Drivit26DIAccountManagerDependencyP">DIAccountManagerDependency</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Protocols/DIDataCalculation.html">DIDataCalculation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Protocols.html#/s:6Drivit27DISettingsManagerDependencyP">DISettingsManagerDependency</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/DrivitDelegate.html">DrivitDelegate</a>
@@ -186,10 +197,16 @@
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Structs/Adler32.html">Adler32</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Crc32.html">Crc32</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIChargingEvent.html">DIChargingEvent</a>
@@ -241,12 +258,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIVehicleEvent.html">DIVehicleEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleLocation.html">DIVehicleLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleMotion.html">DIVehicleMotion</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIVehicleSettings.html">DIVehicleSettings</a>
@@ -378,14 +389,36 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>DataCompression</p>
+
+<p>A libcompression wrapper as an extension for the <code>Data</code> type
+(GZIP, ZLIB, LZFSE, LZMA, LZ4, deflate, RFC-1950, RFC-1951, RFC-1952)</p>
+
+<p>Created by Markus Wanke, 2016/12/05</p>
+
+<p>Apache License, Version 2.0</p>
+
+<p>Copyright 2016, Markus Wanke</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the <q>License</q>);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+
+<p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an <q>AS IS</q> BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+
                         <a href="Extensions/Data.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Data</span> <span class="p">:</span> <span class="kt">ReferenceConvertible</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">RandomAccessCollection</span><span class="p">,</span> <span class="kt">MutableCollection</span><span class="p">,</span> <span class="kt">RangeReplaceableCollection</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Data</span> <span class="p">:</span> <span class="kt">ReferenceConvertible</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">RandomAccessCollection</span><span class="p">,</span> <span class="kt">MutableCollection</span><span class="p">,</span> <span class="kt">RangeReplaceableCollection</span><span class="p">,</span> <span class="kt">MutableDataProtocol</span><span class="p">,</span> <span class="kt">ContiguousBytes</span></code></pre>
 
                         </div>
                       </div>
@@ -436,8 +469,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-03-25)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-05-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

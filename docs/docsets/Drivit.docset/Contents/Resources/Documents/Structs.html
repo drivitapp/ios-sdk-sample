@@ -14,7 +14,7 @@
     <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Drivit Docs</a> (41% documented)</p>
+        <p><a href="index.html">Drivit Docs</a> (43% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -45,6 +45,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DIVehicleLocation.html">DIVehicleLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DIVehicleMotion.html">DIVehicleMotion</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Drivit.html">Drivit</a>
@@ -151,19 +157,24 @@
               <li class="nav-group-task">
                 <a href="Extensions/Data.html">Data</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Protocols.html#/s:6Drivit26DIAccountManagerDependencyP">DIAccountManagerDependency</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Protocols/DIDataCalculation.html">DIDataCalculation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Protocols.html#/s:6Drivit27DISettingsManagerDependencyP">DISettingsManagerDependency</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/DrivitDelegate.html">DrivitDelegate</a>
@@ -186,10 +197,16 @@
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Structs/Adler32.html">Adler32</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Crc32.html">Crc32</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIChargingEvent.html">DIChargingEvent</a>
@@ -241,12 +258,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIVehicleEvent.html">DIVehicleEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleLocation.html">DIVehicleLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleMotion.html">DIVehicleMotion</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DIVehicleSettings.html">DIVehicleSettings</a>
@@ -370,6 +381,66 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Random</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit5Crc32V"></a>
+                    <a name="//apple_ref/swift/Struct/Crc32" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit5Crc32V">Crc32</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Struct based type representing a Crc32 checksum.</p>
+
+                        <a href="Structs/Crc32.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Crc32</span> <span class="p">:</span> <span class="kt">CustomStringConvertible</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit7Adler32V"></a>
+                    <a name="//apple_ref/swift/Struct/Adler32" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit7Adler32V">Adler32</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Struct based type representing a Adler32 checksum.</p>
+
+                        <a href="Structs/Adler32.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Adler32</span> <span class="p">:</span> <span class="kt">CustomStringConvertible</span></code></pre>
 
                         </div>
                       </div>
@@ -955,70 +1026,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit17DIVehicleLocationV"></a>
-                    <a name="//apple_ref/swift/Struct/DIVehicleLocation" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIVehicleLocationV">DIVehicleLocation</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/DIVehicleLocation.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DIVehicleLocation</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit15DIVehicleMotionV"></a>
-                    <a name="//apple_ref/swift/Struct/DIVehicleMotion" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit15DIVehicleMotionV">DIVehicleMotion</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/DIVehicleMotion.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DIVehicleMotion</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:6Drivit17DIVehicleSettingsV"></a>
                     <a name="//apple_ref/swift/Struct/DIVehicleSettings" class="dashAnchor"></a>
                     <a class="token" href="#/s:6Drivit17DIVehicleSettingsV">DIVehicleSettings</a>
@@ -1081,8 +1088,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-03-25)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-05-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
