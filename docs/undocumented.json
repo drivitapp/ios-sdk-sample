@@ -30,7 +30,7 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 1516,
+      "line": 1507,
       "symbol": "DIMonitorManager.enableDebugMode()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
