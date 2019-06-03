@@ -30,7 +30,7 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 1515,
+      "line": 1507,
       "symbol": "DIMonitorManager.enableDebugMode()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -418,13 +418,6 @@
       "line": 30,
       "symbol": "DrivitLoginObject.init(username:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Model/Cloud/DrivitUploadManager.swift",
-      "line": null,
-      "symbol": "DrivitUploadManager",
-      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
