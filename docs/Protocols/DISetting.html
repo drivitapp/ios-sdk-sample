@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DISetting Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/DISetting" class="dashAnchor"></a>
+    <a title="DISetting Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Drivit Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Drivit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DISetting Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DIEditor.html">DIEditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIPermissioManager.html">DIPermissioManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIReport.html">DIReport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleLocation.html">DIVehicleLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleMotion.html">DIVehicleMotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Drivit.html">Drivit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Drivit21DIPushNotificationsIDSSvp">DIPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuthError.html">DIAuthError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIElectricFilter.html">DIElectricFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIFuel.html">DIFuel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIFuelType.html">DIFuelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DILogin.html">DILogin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIPermissionStatus.html">DIPermissionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISettingState.html">DISettingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISettingType.html">DISettingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISignup.html">DISignup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISnapError.html">DISnapError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DITripValidity.html">DITripValidity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIVehicleError.html">DIVehicleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitOverallStatus.html">DrivitOverallStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitStatusSettingID.html">DrivitStatusSettingID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitStatusTypeState.html">DrivitStatusTypeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReportStatus.html">ReportStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DIMOTrip.html">DIMOTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DIMonitorManager.html">DIMonitorManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DIPPermissionManager.html">DIPPermissionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DISetting.html">DISetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitDelegate.html">DrivitDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusType.html">DrivitStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnumCollection.html">EnumCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnumerableEnum.html">EnumerableEnum</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Adler32.html">Adler32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Crc32.html">Crc32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIChargingEvent.html">DIChargingEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DILocation.html">DILocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISettings.html">DISettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISnappedLocation.html">DISnappedLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISnappedPoint.html">DISnappedPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITargetVehicleConsumption.html">DITargetVehicleConsumption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITrip.html">DITrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripDestination.html">DITripDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripFile.html">DITripFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripOrigin.html">DITripOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIUsage.html">DIUsage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIUser.html">DIUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicle.html">DIVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleEvent.html">DIVehicleEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleSettings.html">DIVehicleSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DISetting</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DISetting</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP16SettingDidChangea"></a>
+                    <a name="//apple_ref/swift/Alias/SettingDidChange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP16SettingDidChangea">SettingDidChange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">typealias</span> <span class="kt">SettingDidChange</span> <span class="o">=</span> <span class="p">(</span><span class="kt">DISetting</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP9didChangeyAaB_pcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/didChange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP9didChangeyAaB_pcSgvp">didChange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">didChange</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DISetting.html#/s:6Drivit9DISettingP16SettingDidChangea">SettingDidChange</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP5stateAA0B5StateOyF"></a>
+                    <a name="//apple_ref/swift/Method/state()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP5stateAA0B5StateOyF">state()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the state of the setting</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">state</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/DISettingState.html">DISettingState</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP10identifierAA0B4TypeOyF"></a>
+                    <a name="//apple_ref/swift/Method/identifier()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP10identifierAA0B4TypeOyF">identifier()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the id of the setting</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">identifier</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/DISettingType.html">DISettingType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP7resolve4viewySo16UIViewControllerC_tF"></a>
+                    <a name="//apple_ref/swift/Method/resolve(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP7resolve4viewySo16UIViewControllerC_tF">resolve(view:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs the required action when a setting is not correctly configured.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Performs the required action when a setting is not correctly configured.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resolve</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit9DISettingP7recheckyyF"></a>
+                    <a name="//apple_ref/swift/Method/recheck()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit9DISettingP7recheckyyF">recheck()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Recheck permissions state</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Recheck permissions state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">recheck</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-08-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -2,42 +2,42 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 361,
+      "line": 464,
       "symbol": "DIVehicleError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 362,
+      "line": 465,
       "symbol": "DIVehicleError.missingGuid",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 363,
+      "line": 466,
       "symbol": "DIVehicleError.tooManyVehicles",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 364,
+      "line": 467,
       "symbol": "DIVehicleError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 1483,
+      "line": 1587,
       "symbol": "DIMonitorManager",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIMonitorManager.swift",
-      "line": 1485,
+      "line": 1589,
       "symbol": "DIMonitorManager.enableDebugMode()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -352,15 +352,50 @@
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
-      "line": 12,
-      "symbol": "DIAuthError.wrongLoginCredentials",
+      "line": 13,
+      "symbol": "DIAuthError.other",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
-      "line": 13,
-      "symbol": "DIAuthError.unknown",
+      "line": 14,
+      "symbol": "DIAuthError.invalidData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
+      "line": 15,
+      "symbol": "DIAuthError.accountDeleted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
+      "line": 16,
+      "symbol": "DIAuthError.wrongCredentials",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
+      "line": 17,
+      "symbol": "DIAuthError.userAlreadyExists",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
+      "line": 18,
+      "symbol": "DIAuthError.alreadyLoggedIn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/NetworkManager/DINetworkManager/DINetworkManager.swift",
+      "line": 19,
+      "symbol": "DIAuthError.authenticationInProgress",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -369,6 +404,118 @@
       "line": 21,
       "symbol": "DIAuthError.code()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 11,
+      "symbol": "DIPermissionStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 13,
+      "symbol": "DIPermissionStatus.ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 14,
+      "symbol": "DIPermissionStatus.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 18,
+      "symbol": "DIPPermissionManager",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 37,
+      "symbol": "DIPermissioManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 46,
+      "symbol": "DIPermissioManager.PermissionsDidChange",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DIPermissionManager.swift",
+      "line": 58,
+      "symbol": "DIPermissioManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 11,
+      "symbol": "DISettingType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 51,
+      "symbol": "DISettingType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 65,
+      "symbol": "DISettingState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 67,
+      "symbol": "DISettingState.ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 68,
+      "symbol": "DISettingState.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 72,
+      "symbol": "DISetting",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 74,
+      "symbol": "DISetting.SettingDidChange",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 77,
+      "symbol": "DISetting.didChange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/PermissionManager/DISetting.swift",
+      "line": 93,
+      "symbol": "DISetting",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {

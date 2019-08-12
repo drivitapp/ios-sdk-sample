@@ -14,7 +14,7 @@
     <a title="DIAuthError Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Drivit Docs</a> (43% documented)</p>
+        <p><a href="../index.html">Drivit Docs</a> (44% documented)</p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
@@ -33,6 +33,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Classes/DIEditor.html">DIEditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIPermissioManager.html">DIPermissioManager</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/DIReport.html">DIReport</a>
@@ -99,7 +102,16 @@
                 <a href="../Enums/DILogin.html">DILogin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/DIPermissionStatus.html">DIPermissionStatus</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISettingState.html">DISettingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISettingType.html">DISettingType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DISignup.html">DISignup</a>
@@ -169,6 +181,12 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DIPPermissionManager.html">DIPPermissionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DISetting.html">DISetting</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/DrivitDelegate.html">DrivitDelegate</a>
@@ -299,9 +317,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit11DIAuthErrorO21wrongLoginCredentialsyA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/wrongLoginCredentials" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit11DIAuthErrorO21wrongLoginCredentialsyA2CmF">wrongLoginCredentials</a>
+                    <a name="/s:6Drivit11DIAuthErrorO5otheryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/other" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO5otheryA2CmF">other</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -316,7 +334,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">wrongLoginCredentials</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">other</span></code></pre>
 
                         </div>
                       </div>
@@ -326,9 +344,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit11DIAuthErrorO7unknownyA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/unknown" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit11DIAuthErrorO7unknownyA2CmF">unknown</a>
+                    <a name="/s:6Drivit11DIAuthErrorO11invalidDatayA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/invalidData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO11invalidDatayA2CmF">invalidData</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -343,7 +361,142 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unknown</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalidData</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit11DIAuthErrorO14accountDeletedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/accountDeleted" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO14accountDeletedyA2CmF">accountDeleted</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">accountDeleted</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit11DIAuthErrorO16wrongCredentialsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/wrongCredentials" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO16wrongCredentialsyA2CmF">wrongCredentials</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">wrongCredentials</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit11DIAuthErrorO17userAlreadyExistsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/userAlreadyExists" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO17userAlreadyExistsyA2CmF">userAlreadyExists</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">userAlreadyExists</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit11DIAuthErrorO15alreadyLoggedInyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/alreadyLoggedIn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO15alreadyLoggedInyA2CmF">alreadyLoggedIn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">alreadyLoggedIn</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit11DIAuthErrorO24authenticationInProgressyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/authenticationInProgress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit11DIAuthErrorO24authenticationInProgressyA2CmF">authenticationInProgress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">authenticationInProgress</span></code></pre>
 
                         </div>
                       </div>
@@ -382,7 +535,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-07-22)</p>
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-08-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
