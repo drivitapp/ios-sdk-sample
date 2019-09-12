@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="250" src="logo.jpg" />
+  <img src="https://github.com/drivitapp/ios-sdk-sample/blob/master/logo.jpg?raw=true" />
 </p>
 
 # Drivit
