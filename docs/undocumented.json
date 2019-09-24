@@ -1,6 +1,19 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Keychain.swift",
+      "line": 1163,
+      "symbol": "Keychain",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/TripManager/DILocationManager/SwiftLocation/SwiftyJSON.swift",
+      "line": 421,
+      "symbol": "JSON",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/adaorodrigues/Documents/Repository/iOS-core"
 }
