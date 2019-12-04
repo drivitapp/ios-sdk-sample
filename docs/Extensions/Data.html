@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Data Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/Data" class="dashAnchor"></a>
+    <a title="Data Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Drivit Docs</a> (43% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Drivit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Data Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AES256CBC.html">AES256CBC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIEditor.html">DIEditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIReport.html">DIReport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleLocation.html">DIVehicleLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DIVehicleMotion.html">DIVehicleMotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Drivit.html">Drivit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:6Drivit21DIPushNotificationsIDSSvp">DIPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuth.html">DIAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIAuthError.html">DIAuthError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIElectricFilter.html">DIElectricFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIFuel.html">DIFuel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIFuelType.html">DIFuelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DILogin.html">DILogin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISignup.html">DISignup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DISnapError.html">DISnapError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DITripValidity.html">DITripValidity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DIVehicleError.html">DIVehicleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitOverallStatus.html">DrivitOverallStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitStatusSettingID.html">DrivitStatusSettingID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitStatusTypeState.html">DrivitStatusTypeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReportStatus.html">ReportStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/AESCipher.html">AESCipher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DIMOTrip.html">DIMOTrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DIMonitorManager.html">DIMonitorManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitDelegate.html">DrivitDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DrivitStatusType.html">DrivitStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnumCollection.html">EnumCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnumerableEnum.html">EnumerableEnum</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Adler32.html">Adler32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Crc32.html">Crc32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIChargingEvent.html">DIChargingEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DILocation.html">DILocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISettings.html">DISettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISnappedLocation.html">DISnappedLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DISnappedPoint.html">DISnappedPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITargetVehicleConsumption.html">DITargetVehicleConsumption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITrip.html">DITrip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripDestination.html">DITripDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripFile.html">DITripFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DITripOrigin.html">DITripOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIUsage.html">DIUsage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIUser.html">DIUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicle.html">DIVehicle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleEvent.html">DIVehicleEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DIVehicleSettings.html">DIVehicleSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError.html">GzipError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GzipError/Kind.html">– Kind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Random.html">Random</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Data</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@frozen</span>
+<span class="kd">public</span> <span class="kd">extension</span> <span class="kt">Data</span></code></pre>
+
+                </div>
+              </div>
+            <p>DataCompression</p>
+
+<p>A libcompression wrapper as an extension for the <code>Data</code> type
+(GZIP, ZLIB, LZFSE, LZMA, LZ4, deflate, RFC-1950, RFC-1951, RFC-1952)</p>
+
+<p>Created by Markus Wanke, 2016/12/05</p>
+
+<p>Apache License, Version 2.0</p>
+
+<p>Copyright 2016, Markus Wanke</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the <q>License</q>);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+
+<p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an <q>AS IS</q> BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE8compress13withAlgorithmACSgAcDE011CompressionF0O_tF"></a>
+                    <a name="//apple_ref/swift/Method/compress(withAlgorithm:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE8compress13withAlgorithmACSgAcDE011CompressionF0O_tF">compress(withAlgorithm:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compresses the data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">compress</span><span class="p">(</span><span class="n">withAlgorithm</span> <span class="nv">algo</span><span class="p">:</span> <span class="kt"><a href="../Extensions/Data/CompressionAlgorithm.html">CompressionAlgorithm</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withAlgorithm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Compression algorithm to use. See the <code><a href="../Extensions/Data/CompressionAlgorithm.html">CompressionAlgorithm</a></code> type</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>compressed data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE10decompress13withAlgorithmACSgAcDE011CompressionF0O_tF"></a>
+                    <a name="//apple_ref/swift/Method/decompress(withAlgorithm:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE10decompress13withAlgorithmACSgAcDE011CompressionF0O_tF">decompress(withAlgorithm:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decompresses the data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decompress</span><span class="p">(</span><span class="n">withAlgorithm</span> <span class="nv">algo</span><span class="p">:</span> <span class="kt"><a href="../Extensions/Data/CompressionAlgorithm.html">CompressionAlgorithm</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withAlgorithm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Compression algorithm to use. See the <code><a href="../Extensions/Data/CompressionAlgorithm.html">CompressionAlgorithm</a></code> type</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>decompressed data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE20CompressionAlgorithmO"></a>
+                    <a name="//apple_ref/swift/Enum/CompressionAlgorithm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE20CompressionAlgorithmO">CompressionAlgorithm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Please consider the <a href="https://developer.apple.com/reference/compression/1665429-data_compression">libcompression documentation</a>
+for further details. Short info:
+zlib  : Aka deflate. Fast with a good compression rate. Proved itself ofer time and is supported everywhere.
+lzfse : Apples custom Lempel-Ziv style compression algorithm. Claims to compress as good as zlib but 2 to 3 times faster.
+lzma  : Horribly slow. Compression as well as decompression. Compresses better than zlib though.
+lz4   : Fast, but compression rate is very bad. Apples lz4 implementation often to not compress at all.</p>
+
+                        <a href="../Extensions/Data/CompressionAlgorithm.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">CompressionAlgorithm</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE7deflateACSgyF"></a>
+                    <a name="//apple_ref/swift/Method/deflate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE7deflateACSgyF">deflate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compresses the data using the zlib deflate algorithm.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Fixed at compression level 5 (best trade off between speed and time)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">deflate</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>raw deflated data according to <a href="https://tools.ietf.org/html/rfc1951">RFC-1951</a>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE7inflateACSgyF"></a>
+                    <a name="//apple_ref/swift/Method/inflate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE7inflateACSgyF">inflate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decompresses the data using the zlib deflate algorithm. Self is expected to be a raw deflate
+stream according to <a href="https://tools.ietf.org/html/rfc1951">RFC-1951</a>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">inflate</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>uncompressed data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE3zipACSgyF"></a>
+                    <a name="//apple_ref/swift/Method/zip()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE3zipACSgyF">zip()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compresses the data using the deflate algorithm and makes it comply to the zlib format.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Fixed at compression level 5 (best trade off between speed and time)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">zip</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>deflated data in zlib format <a href="https://tools.ietf.org/html/rfc1950">RFC-1950</a></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE5unzip22skipCheckSumValidationACSgSb_tF"></a>
+                    <a name="//apple_ref/swift/Method/unzip(skipCheckSumValidation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE5unzip22skipCheckSumValidationACSgSb_tF">unzip(skipCheckSumValidation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decompresses the data using the zlib deflate algorithm. Self is expected to be a zlib deflate
+stream according to <a href="https://tools.ietf.org/html/rfc1950">RFC-1950</a>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">unzip</span><span class="p">(</span><span class="nv">skipCheckSumValidation</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>uncompressed data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE4gzipACSgyF"></a>
+                    <a name="//apple_ref/swift/Method/gzip()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE4gzipACSgyF">gzip()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compresses the data using the deflate algorithm and makes it comply to the gzip stream format.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Fixed at compression level 5 (best trade off between speed and time)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">gzip</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>deflated data in gzip format <a href="https://tools.ietf.org/html/rfc1952">RFC-1952</a></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE6gunzipACSgyF"></a>
+                    <a name="//apple_ref/swift/Method/gunzip()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE6gunzipACSgyF">gunzip()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decompresses the data using the gzip deflate algorithm. Self is expected to be a gzip deflate
+stream according to <a href="https://tools.ietf.org/html/rfc1952">RFC-1952</a>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">gunzip</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>uncompressed data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE7adler32AD7Adler32VyF"></a>
+                    <a name="//apple_ref/swift/Method/adler32()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE7adler32AD7Adler32VyF">adler32()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculate the Adler32 checksum of the data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adler32</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Adler32.html">Adler32</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Adler32 checksum type. Can still be further advanced.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE5crc32AD5Crc32VyF"></a>
+                    <a name="//apple_ref/swift/Method/crc32()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE5crc32AD5Crc32VyF">crc32()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculate the Crc32 checksum of the data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">crc32</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Crc32.html">Crc32</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Crc32 checksum type. Can still be further advanced.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE9isGzippedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isGzipped" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE9isGzippedSbvp">isGzipped</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether the receiver is compressed in gzip format.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isGzipped</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE7gzipped5levelAcD16CompressionLevelV_tKF"></a>
+                    <a name="//apple_ref/swift/Method/gzipped(level:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE7gzipped5levelAcD16CompressionLevelV_tKF">gzipped(level:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new <code>Data</code> object by compressing the receiver using zlib.
+Throws an error if compression failed.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/GzipError.html">GzipError</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gzipped</span><span class="p">(</span><span class="nv">level</span><span class="p">:</span> <span class="kt"><a href="../Structs/CompressionLevel.html">CompressionLevel</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">defaultCompression</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>level</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Compression level.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Gzip-compressed <code>Data</code> object.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DataV6DrivitE9gunzippedACyKF"></a>
+                    <a name="//apple_ref/swift/Method/gunzipped()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DataV6DrivitE9gunzippedACyKF">gunzipped()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new <code>Data</code> object by decompressing the receiver using zlib.
+Throws an error if decompression failed.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/GzipError.html">GzipError</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gunzipped</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Gzip-decompressed <code>Data</code> object.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-12-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://github.com/drivitapp/ios-sdk-sample/blob/master/logo.jpg?raw=true" />
+  <img height="250" src="logo.jpg" />
 </p>
 
 # Drivit
 
-[![Version](https://img.shields.io/badge/Version-3.2.0-blue.svg?style=flat)](https://img.shields.io/badge/Version-3.2.0-blue.svg?style=flat) [![CocoaPods](https://img.shields.io/badge/CocoaPods-compatible-success?style=flat)](https://github.com/CocoaPods/CocoaPods) [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange?style=flat)](https://developer.apple.com/swift/) [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat)](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
+[![CocoaPods Compatible](https://img.shields.io/badge/Pod-2.0.4-blue.svg)](https://img.shields.io/badge/Pod-2.0.4-blue.svg) [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
 
 This is a sample project that outlines the key steps to integrate the Drivit iOS SDK into your application and put it to work. Should you have any doubt, feel free to contact us at support@drivit.com.
 
@@ -16,28 +16,21 @@ This is a sample project that outlines the key steps to integrate the Drivit iOS
 
 **Using the SDK:**
 
+- [Xcode Capabilities](#capabilities)
 - [Usage](#usage)
+
 
 ## Requirements
 
 - iOS 10.0+
-- Xcode 10.0+
+- Xcode 11.2.1
 
 Below is a table that shows which version of Drivit you should use for your Swift version.
 
-Swift |    | Drivit 
-:---: | :------:|:---: 
-4.X | <= | 3.2 
+Swift | Drivit   
+:---- | --------
+4.X   | >= 1.0.0
 
-### Xcode Capabilities
-
-Add the following capabilities to your Xcode project:
-
-- Background Modes
-  - Location Updates - Allows us to run locations update in the background
-  - Background Fetch - Allows us to run periodically in the background so that we can update its content
-  - Remote Notifications - Allows us to process background update notifications
-- Push Notifications
 
 ## Installation
 
@@ -57,7 +50,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'Drivit', '~> 3.2.0'
+    pod 'Drivit', '~> 2.0.4'
 end
 ```
 
@@ -66,6 +59,22 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+
+### Manually
+
+To get the Drivit SDK framework contact us at support@drivit.com.
+
+
+## Capabilities
+
+Add the following capabilities to your Xcode project:
+
+- Background Modes
+	- Location Updates - Allows us to run locations update in the background
+	- Background Fetch - Allows us to run periodically in the background so that we can update its content
+	- Remote Notifications - Allows us to process background update notifications
+
+- Push Notifications
 
 ## Usage
 
