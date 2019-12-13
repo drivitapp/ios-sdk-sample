@@ -4,300 +4,308 @@
     <title>Drivit  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="js/jquery.min.js" defer></script>
     <script src="js/jazzy.js" defer></script>
     
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
+
+
     <a title="Drivit  Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="index.html">Drivit Docs</a> (43% documented)</p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="img/dash.png"/>Install in Dash</a></p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="index.html">Drivit Reference</a>
-        <img id="carat" src="img/carat.png" />
-        Drivit  Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          Drivit Docs
+        </a>
+         (99% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/drivitapp/ios-sdk-sample">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">Drivit Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Drivit  Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="Core.html">Core</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Classes/AES256CBC.html">AES256CBC</a>
+                <a class="nav-group-task-link" href="Classes/Drivit.html">Drivit</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DIEditor.html">DIEditor</a>
+                <a class="nav-group-task-link" href="Classes/Drivit/authentication.html">– authentication</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DIReport.html">DIReport</a>
+                <a class="nav-group-task-link" href="Classes/Drivit/cloud.html">– cloud</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
+                <a class="nav-group-task-link" href="Classes/Drivit/settings.html">– settings</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+                <a class="nav-group-task-link" href="Classes/Drivit/user.html">– user</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DIVehicleLocation.html">DIVehicleLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/DIVehicleMotion.html">DIVehicleMotion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/Drivit.html">Drivit</a>
+                <a class="nav-group-task-link" href="Classes/Drivit/default.html">– default</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Global%20Variables.html">Global Variables</a>
+            <a class="nav-group-name-link" href="Authentication.html">Authentication</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Global%20Variables.html#/s:6Drivit21DIPushNotificationsIDSSvp">DIPushNotificationsID</a>
+                <a class="nav-group-task-link" href="Enums/DILogin.html">DILogin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DISignup.html">DISignup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIUser.html">DIUser</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="Settings.html">Settings</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Enums/DIAuth.html">DIAuth</a>
+                <a class="nav-group-task-link" href="Enums/DIPermissionStatus.html">DIPermissionStatus</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DIAuthError.html">DIAuthError</a>
+                <a class="nav-group-task-link" href="Enums/DIDataPlan.html">DIDataPlan</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
+                <a class="nav-group-task-link" href="Enums/DIElectricFilter.html">DIElectricFilter</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+                <a class="nav-group-task-link" href="Enums/DIGPSPrecision.html">DIGPSPrecision</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIDataPlan.html">DIDataPlan</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIElectricFilter.html">DIElectricFilter</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIFuel.html">DIFuel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIFuelType.html">DIFuelType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIGPSPrecision.html">DIGPSPrecision</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DILogin.html">DILogin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIRecordingMode.html">DIRecordingMode</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DISignup.html">DISignup</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DISnapError.html">DISnapError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DITripValidity.html">DITripValidity</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DIVehicleError.html">DIVehicleError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitOverallStatus.html">DrivitOverallStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitStatusSettingID.html">DrivitStatusSettingID</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitStatusTypeState.html">DrivitStatusTypeState</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/ReportStatus.html">ReportStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/Result.html">Result</a>
+                <a class="nav-group-task-link" href="Enums/DIRecordingMode.html">DIRecordingMode</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="Fuel.html">Fuel</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Extensions/AESCipher.html">AESCipher</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/DIMOTrip.html">DIMOTrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/DIMonitorManager.html">DIMonitorManager</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/Data.html">Data</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+                <a class="nav-group-task-link" href="Enums/DIFuel.html">DIFuel</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Functions.html">Functions</a>
+            <a class="nav-group-name-link" href="Simulations.html">Simulations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+                <a class="nav-group-task-link" href="Protocols/DIReport.html">DIReport</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIChargingEvent.html">DIChargingEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Protocols.html">Protocols</a>
+            <a class="nav-group-name-link" href="Trips.html">Trips</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Protocols/DIDataCalculation.html">DIDataCalculation</a>
+                <a class="nav-group-task-link" href="Protocols/DITrip.html">DITrip</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/DrivitDelegate.html">DrivitDelegate</a>
+                <a class="nav-group-task-link" href="Protocols/DILocation.html">DILocation</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+                <a class="nav-group-task-link" href="Protocols/DIUsage.html">DIUsage</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/DrivitStatusType.html">DrivitStatusType</a>
+                <a class="nav-group-task-link" href="Protocols/DIVehicle.html">DIVehicle</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/EnumCollection.html">EnumCollection</a>
+                <a class="nav-group-task-link" href="Protocols/DIVehicleDetails.html">DIVehicleDetails</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/EnumerableEnum.html">EnumerableEnum</a>
+                <a class="nav-group-task-link" href="Protocols/DIVehicleSettings.html">DIVehicleSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Structs.html">Structures</a>
+            <a class="nav-group-name-link" href="Utilities.html">Utilities</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Structs/Adler32.html">Adler32</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/CompressionLevel.html">CompressionLevel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/Crc32.html">Crc32</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIChargingEvent.html">DIChargingEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIChargingRule.html">DIChargingRule</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DILocation.html">DILocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DISettings.html">DISettings</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DISnappedLocation.html">DISnappedLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DISnappedPoint.html">DISnappedPoint</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DITargetVehicleConsumption.html">DITargetVehicleConsumption</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DITrip.html">DITrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DITripDestination.html">DITripDestination</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DITripFile.html">DITripFile</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DITripOrigin.html">DITripOrigin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIUsage.html">DIUsage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIUser.html">DIUser</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicle.html">DIVehicle</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleDetails.html">DIVehicleDetails</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleEvent.html">DIVehicleEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DIVehicleSettings.html">DIVehicleSettings</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/DrivitLoginObject.html">DrivitLoginObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/GzipError.html">GzipError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/GzipError/Kind.html">– Kind</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/Random.html">Random</a>
+                <a class="nav-group-task-link" href="Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Typealiases.html">Type Aliases</a>
+            <a class="nav-group-name-link" href="Other%20Classes.html">Other Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+                <a class="nav-group-task-link" href="Classes/DIPermissionsManager.html">DIPermissionsManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Global%20Variables.html#/s:6Drivit21DPPushNotificationsIDSSvp">DPPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIChargingRuleId.html">DIChargingRuleId</a>
               </li>
               <li class="nav-group-task">
-                <a href="Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+                <a class="nav-group-task-link" href="Enums/DIError.html">DIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/Authentication.html">– Authentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/DeleteAccount.html">– DeleteAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/ResetPassword.html">– ResetPassword</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/SnappedLocations.html">– SnappedLocations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/Trips.html">– Trips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/Garage.html">– Garage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIError/Object.html">– Object</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIEventType.html">DIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIPermissionState.html">DIPermissionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIPermissionType.html">DIPermissionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/DIResult.html">DIResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/TripValidity.html">TripValidity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Notification/Name.html">– Name</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Functions.html#/s:6Drivit2eeoiySbAA14DIChargingRule_p_AaC_ptF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIAuthentication.html">DIAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DICoordinate.html">DICoordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIDestination.html">DIDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIEvent.html">DIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIOrigin.html">DIOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIPermission.html">DIPermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIPresentDevice.html">DIPresentDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DIUserSettings.html">DIUserSettings</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/DIRegion.html">DIRegion</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             
             <p align="center">
-  <img height="250" src="logo.jpg" />
+  <img src="https://github.com/drivitapp/ios-sdk-sample/blob/master/logo.jpg?raw=true" />
 </p>
 <h1 id='drivit' class='heading'>Drivit</h1>
 
-<p><a href="https://img.shields.io/badge/Pod-2.0.4-blue.svg"><img src="https://img.shields.io/badge/Pod-2.0.4-blue.svg" alt="CocoaPods Compatible"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg" alt="Platform"></a></p>
+<p><a href="https://github.com/drivitapp/ios-sdk-sample/releases/latest"><img src="https://img.shields.io/badge/Pod-4.0.0--alpha1-blue.svg?style=flat" alt="Version"></a> <a href="https://github.com/CocoaPods/CocoaPods"><img src="https://img.shields.io/badge/CocoaPods-compatible-success?style=flat" alt="CocoaPods"></a> <a href="https://developer.apple.com/swift/"><img src="https://img.shields.io/badge/Swift-5.0-orange?style=flat" alt="Swift 5.0"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat" alt="Platform"></a></p>
 
 <p>This is a sample project that outlines the key steps to integrate the Drivit iOS SDK into your application and put it to work. Should you have any doubt, feel free to contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
 
@@ -312,7 +320,6 @@
 <p><strong>Using the SDK:</strong></p>
 
 <ul>
-<li><a href="#capabilities">Xcode Capabilities</a></li>
 <li><a href="#usage">Usage</a></li>
 </ul>
 <h2 id='requirements' class='heading'>Requirements</h2>
@@ -326,15 +333,36 @@
 
 <table><thead>
 <tr>
-<th style="text-align: left">Swift</th>
-<th>Drivit</th>
+<th style="text-align: center">Swift</th>
+<th style="text-align: center"></th>
+<th style="text-align: center">Drivit</th>
 </tr>
 </thead><tbody>
 <tr>
-<td style="text-align: left">4.X</td>
-<td>&gt;= 1.0.0</td>
+<td style="text-align: center">5.X</td>
+<td style="text-align: center">&gt;=</td>
+<td style="text-align: center">3.3</td>
+</tr>
+<tr>
+<td style="text-align: center">4.X</td>
+<td style="text-align: center">&lt;=</td>
+<td style="text-align: center">3.2</td>
 </tr>
 </tbody></table>
+<h3 id='xcode-capabilities' class='heading'>Xcode Capabilities</h3>
+
+<p>Add the following capabilities to your Xcode project:</p>
+
+<ul>
+<li>Background Modes
+
+<ul>
+<li>Location Updates - Allows us to run locations update in the background</li>
+<li>Background Fetch - Allows us to run periodically in the background so we can update its content</li>
+<li>Remote Notifications - Allows us to process background update notifications</li>
+</ul></li>
+<li>Push Notifications</li>
+</ul>
 <h2 id='installation' class='heading'>Installation</h2>
 <h3 id='cocoapods' class='heading'>CocoaPods</h3>
 
@@ -348,30 +376,13 @@
 <span class="n">use_frameworks!</span>
 
 <span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
-    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 2.0.4'</span>
+    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 4.0.0-alpha1'</span>
 <span class="k">end</span>
 </code></pre>
 
 <p>Then, run the following command:</p>
 <pre class="highlight shell"><code><span class="nv">$ </span>pod <span class="nb">install</span>
 </code></pre>
-<h3 id='manually' class='heading'>Manually</h3>
-
-<p>To get the Drivit SDK framework contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
-<h2 id='capabilities' class='heading'>Capabilities</h2>
-
-<p>Add the following capabilities to your Xcode project:</p>
-
-<ul>
-<li><p>Background Modes</p>
-
-<ul>
-<li>Location Updates - Allows us to run locations update in the background</li>
-<li>Background Fetch - Allows us to run periodically in the background so that we can update its content</li>
-<li>Remote Notifications - Allows us to process background update notifications</li>
-</ul></li>
-<li><p>Push Notifications</p></li>
-</ul>
 <h2 id='usage' class='heading'>Usage</h2>
 <h4 id='1-add-the-drivit-api-key-to-the-plist-source-code' class='heading'>1. Add the Drivit API Key to the Plist source code</h4>
 
@@ -391,7 +402,7 @@
 
 <p>Let&rsquo;s start by adding the following code to your App Delegate so Drivit is able to know the reason why the app was launched (if any), such as notifications and locations update:</p>
 <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="p">{</span>
-    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="nv">withOptions</span><span class="p">:</span> <span class="n">launchOptions</span><span class="p">)</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="nv">withOptions</span><span class="p">:</span> <span class="n">launchOptions</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="kc">true</span>
 <span class="p">}</span>
@@ -400,7 +411,7 @@
 
 <p>After that, we need to setup the Background App Refresh. This allow the SDK to run periodically in the background so that it can update its content. To do so, let&rsquo;s include the following code in your App Delegate:</p>
 <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">performFetchWithCompletionHandler</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">performFetchWithCompletionHandler</span> <span class="p">{</span> <span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="k">in</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="n">performFetchWithCompletionHandler</span> <span class="p">{</span> <span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="k">in</span>
         <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
             <span class="k">case</span> <span class="o">.</span><span class="nv">newData</span><span class="p">:</span>
                 <span class="nf">completionHandler</span><span class="p">(</span><span class="o">.</span><span class="n">newData</span><span class="p">)</span>
@@ -416,28 +427,40 @@
 
 <p>To keep your content up to date, it is important to register the device token and subscribe to push notifications. This way, every time we have some new content/data ready to improve user experience, we can let the app know:</p>
 <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didRegisterForRemoteNotificationsWithDeviceToken</span> <span class="nv">deviceToken</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">registerForRemoteNotifications</span><span class="p">(</span><span class="nv">withDeviceToken</span><span class="p">:</span> <span class="n">deviceToken</span><span class="p">)</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="nf">registerForRemoteNotifications</span><span class="p">(</span><span class="nv">withDeviceToken</span><span class="p">:</span> <span class="n">deviceToken</span><span class="p">)</span>
 <span class="p">}</span>
 
 <span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didReceiveRemoteNotification</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">fetchCompletionHandler</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="n">userInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="n">completionHandler</span><span class="p">)</span>
+    <span class="kt">Drivit</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="nf">didReceiveRemoteNotification</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="n">userInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="n">completionHandler</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre>
 <h4 id='5-login-signup-your-user' class='heading'>5. Login/signup your user</h4>
 
 <p>Now we have everything ready, we have to login the user into the SDK before it starts recording trips.
-To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a></code> object and provide it with the info of your user:</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">simple</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">regular</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="s">"email"</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="s">"password"</span><span class="p">)</span>
+To do so, create an instance of the <code><a href="Enums/DILogin.html">DILogin</a></code> or <code><a href="Enums/DISignup.html">DISignup</a></code> objects and provide it with the info of your user:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">regular</span> <span class="o">=</span> <span class="kt">DISignup</span><span class="o">.</span><span class="nf">regular</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="s">"email"</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="s">"password"</span><span class="p">,</span>
+                              <span class="nv">firstName</span><span class="p">:</span> <span class="s">"first"</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="s">"last"</span><span class="p">)</span>
 <span class="c1">// OR</span>
-<span class="k">let</span> <span class="nv">advanced</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">advance</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="s">"secret"</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">advance</span> <span class="o">=</span> <span class="kt">DISignup</span><span class="o">.</span><span class="nf">advance</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="s">"secret"</span><span class="p">)</span>
 
-<span class="k">let</span> <span class="nv">type</span> <span class="o">=</span> <span class="kt">DIAuth</span><span class="o">.</span><span class="nf">login</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">simple</span><span class="p">)</span>
-
-<span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">auth</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">type</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span> <span class="k">in</span>                
+<span class="kt">Drivit</span><span class="o">.</span><span class="n">authentication</span><span class="o">.</span><span class="nf">signup</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">regular</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span> <span class="k">in</span>                
     <span class="k">switch</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="n">user</span><span class="p">):</span> 
             <span class="nf">print</span><span class="p">(</span><span class="s">"Welcome "</span> <span class="o">+</span> <span class="n">user</span><span class="o">.</span><span class="n">firstName</span><span class="p">)</span>
-        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">error</span><span class="p">(</span><span class="n">error</span><span class="p">):</span> 
+        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="n">error</span><span class="p">):</span> 
+            <span class="nf">print</span><span class="p">(</span><span class="s">"An error ocurred: "</span> <span class="o">+</span> <span class="n">error</span><span class="o">.</span><span class="n">localizedDescription</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">regular</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">regular</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="s">"email"</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="s">"password"</span><span class="p">)</span>
+<span class="c1">// OR</span>
+<span class="k">let</span> <span class="nv">advance</span> <span class="o">=</span> <span class="kt">DILogin</span><span class="o">.</span><span class="nf">advance</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="s">"secret"</span><span class="p">)</span>
+
+<span class="kt">Drivit</span><span class="o">.</span><span class="n">authentication</span><span class="o">.</span><span class="nf">login</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="n">advance</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span> <span class="k">in</span>                
+    <span class="k">switch</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="n">user</span><span class="p">):</span> 
+            <span class="nf">print</span><span class="p">(</span><span class="s">"Welcome "</span> <span class="o">+</span> <span class="n">user</span><span class="o">.</span><span class="n">firstName</span><span class="p">)</span>
+        <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="n">error</span><span class="p">):</span> 
             <span class="nf">print</span><span class="p">(</span><span class="s">"An error ocurred: "</span> <span class="o">+</span> <span class="n">error</span><span class="o">.</span><span class="n">localizedDescription</span><span class="p">)</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -445,7 +468,7 @@ To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a>
 <h4 id='6-add-relevant-google-maps-api-keys' class='heading'>6. Add relevant Google Maps API Keys</h4>
 
 <p>To provide an improved user experience, Drivit uses Google APIs. Feel free to set this key where it better suits your architecture:</p>
-<pre class="highlight swift"><code><span class="kt">Drivit</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">googleAPIKey</span> <span class="o">=</span> <span class="s">"YOU_API_KEY"</span>
+<pre class="highlight swift"><code><span class="kt">Drivit</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">googleAPIKey</span> <span class="o">=</span> <span class="s">"YOU_API_KEY"</span>
 </code></pre>
 
 <p>And that is it! Safe trips!</p>
@@ -455,14 +478,16 @@ To do so, create an instance of the <code><a href="Enums/DIAuth.html">DIAuth</a>
 
 <p>You can see the complete reference documentation <a href="https://drivitapp.github.io/ios-sdk-sample/">here</a>.</p>
 
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-12-04)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://drivit.com" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-12-13)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>

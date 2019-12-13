@@ -4,294 +4,302 @@
     <title>DIDataCalculation Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Protocol/DIDataCalculation" class="dashAnchor"></a>
+
     <a title="DIDataCalculation Protocol Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="../index.html">Drivit Docs</a> (43% documented)</p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fdrivitapp%2Egithub%2Eio%2Fios%2Dsdk%2Dsample%2Fdocsets%2FDrivit%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="../index.html">Drivit Reference</a>
-        <img id="carat" src="../img/carat.png" />
-        DIDataCalculation Protocol Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Drivit Docs
+        </a>
+         (99% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/drivitapp/ios-sdk-sample">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Drivit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      DIDataCalculation Protocol Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="../Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="../Core.html">Core</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/AES256CBC.html">AES256CBC</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit.html">Drivit</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DIEditor.html">DIEditor</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit/authentication.html">– authentication</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DIReport.html">DIReport</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit/cloud.html">– cloud</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit/settings.html">– settings</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit/user.html">– user</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DIVehicleLocation.html">DIVehicleLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/DIVehicleMotion.html">DIVehicleMotion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/Drivit.html">Drivit</a>
+                <a class="nav-group-task-link" href="../Classes/Drivit/default.html">– default</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Global%20Variables.html">Global Variables</a>
+            <a class="nav-group-name-link" href="../Authentication.html">Authentication</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Global%20Variables.html#/s:6Drivit21DIPushNotificationsIDSSvp">DIPushNotificationsID</a>
+                <a class="nav-group-task-link" href="../Enums/DILogin.html">DILogin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DISignup.html">DISignup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIUser.html">DIUser</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="../Settings.html">Settings</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/DIAuth.html">DIAuth</a>
+                <a class="nav-group-task-link" href="../Enums/DIPermissionStatus.html">DIPermissionStatus</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/DIAuthError.html">DIAuthError</a>
+                <a class="nav-group-task-link" href="../Enums/DIDataPlan.html">DIDataPlan</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
+                <a class="nav-group-task-link" href="../Enums/DIElectricFilter.html">DIElectricFilter</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+                <a class="nav-group-task-link" href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/DIChargingRuleIds.html">DIChargingRuleIds</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIDataPlan.html">DIDataPlan</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIElectricFilter.html">DIElectricFilter</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIFuel.html">DIFuel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIFuelType.html">DIFuelType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIGPSPrecision.html">DIGPSPrecision</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DILogin.html">DILogin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DISignup.html">DISignup</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DISnapError.html">DISnapError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DITripValidity.html">DITripValidity</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DIVehicleError.html">DIVehicleError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitLocationSetting.html">DrivitLocationSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitOverallStatus.html">DrivitOverallStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitSDKRecordingStatusSetting.html">DrivitSDKRecordingStatusSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitStatusSettingID.html">DrivitStatusSettingID</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitStatusTypeState.html">DrivitStatusTypeState</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/DrivitUserPermissionSetting.html">DrivitUserPermissionSetting</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/ReportStatus.html">ReportStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/Result.html">Result</a>
+                <a class="nav-group-task-link" href="../Enums/DIRecordingMode.html">DIRecordingMode</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="../Fuel.html">Fuel</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/AESCipher.html">AESCipher</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/DIMOTrip.html">DIMOTrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/DIMonitorManager.html">DIMonitorManager</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/Data.html">Data</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/Data/CompressionAlgorithm.html">– CompressionAlgorithm</a>
+                <a class="nav-group-task-link" href="../Enums/DIFuel.html">DIFuel</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Functions.html">Functions</a>
+            <a class="nav-group-name-link" href="../Simulations.html">Simulations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:6Drivit2eeoiySbSo22CLLocationCoordinate2DV_ADtF">==(_:_:)</a>
+                <a class="nav-group-task-link" href="../Protocols/DIReport.html">DIReport</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIChargingEvent.html">DIChargingEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIChargingRule.html">DIChargingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIChargingRuleDays.html">DIChargingRuleDays</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DITargetVehicleConsumptionData.html">DITargetVehicleConsumptionData</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Protocols.html">Protocols</a>
+            <a class="nav-group-name-link" href="../Trips.html">Trips</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/DIDataCalculation.html">DIDataCalculation</a>
+                <a class="nav-group-task-link" href="../Protocols/DITrip.html">DITrip</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/DrivitDelegate.html">DrivitDelegate</a>
+                <a class="nav-group-task-link" href="../Protocols/DILocation.html">DILocation</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/DrivitStatusManagerInterface.html">DrivitStatusManagerInterface</a>
+                <a class="nav-group-task-link" href="../Protocols/DIUsage.html">DIUsage</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/DrivitStatusType.html">DrivitStatusType</a>
+                <a class="nav-group-task-link" href="../Protocols/DIVehicle.html">DIVehicle</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/EnumCollection.html">EnumCollection</a>
+                <a class="nav-group-task-link" href="../Protocols/DIVehicleDetails.html">DIVehicleDetails</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/EnumerableEnum.html">EnumerableEnum</a>
+                <a class="nav-group-task-link" href="../Protocols/DIVehicleSettings.html">DIVehicleSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIVehicleConsumptionData.html">DIVehicleConsumptionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structures</a>
+            <a class="nav-group-name-link" href="../Utilities.html">Utilities</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/Adler32.html">Adler32</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/CheckAndSyncResult.html">CheckAndSyncResult</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/CompressionLevel.html">CompressionLevel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Crc32.html">Crc32</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIChargingEvent.html">DIChargingEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIChargingRule.html">DIChargingRule</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DILocation.html">DILocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DISettings.html">DISettings</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DISnappedLocation.html">DISnappedLocation</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DISnappedPoint.html">DISnappedPoint</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITargetVehicleConsumption.html">DITargetVehicleConsumption</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITrip.html">DITrip</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripDestination.html">DITripDestination</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripFile.html">DITripFile</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DITripOrigin.html">DITripOrigin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIUsage.html">DIUsage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIUser.html">DIUser</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIVehicle.html">DIVehicle</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIVehicleConsumption.html">DIVehicleConsumption</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIVehicleDetails.html">DIVehicleDetails</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIVehicleEvent.html">DIVehicleEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DIVehicleSettings.html">DIVehicleSettings</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DrivitLoginObject.html">DrivitLoginObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GzipError.html">GzipError</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GzipError/Kind.html">– Kind</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Random.html">Random</a>
+                <a class="nav-group-task-link" href="../Enums/DIBackgroundFetchResult.html">DIBackgroundFetchResult</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Typealiases.html">Type Aliases</a>
+            <a class="nav-group-name-link" href="../Other%20Classes.html">Other Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:6Drivit0A22BackgroundTasksSettinga">DrivitBackgroundTasksSetting</a>
+                <a class="nav-group-task-link" href="../Classes/DIPermissionsManager.html">DIPermissionsManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Global%20Variables.html#/s:6Drivit21DPPushNotificationsIDSSvp">DPPushNotificationsID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIChargingRuleId.html">DIChargingRuleId</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:6Drivit0A13MotionSettinga">DrivitMotionSetting</a>
+                <a class="nav-group-task-link" href="../Enums/DIError.html">DIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/Authentication.html">– Authentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/DeleteAccount.html">– DeleteAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/ResetPassword.html">– ResetPassword</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/SnappedLocations.html">– SnappedLocations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/Trips.html">– Trips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/Garage.html">– Garage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIError/Object.html">– Object</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIEventType.html">DIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIPermissionState.html">DIPermissionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIPermissionType.html">DIPermissionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DIResult.html">DIResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/TripValidity.html">TripValidity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Functions.html#/s:6Drivit2eeoiySbAA14DIChargingRule_p_AaC_ptF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIAuthentication.html">DIAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DICoordinate.html">DICoordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIDestination.html">DIDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIEvent.html">DIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIOrigin.html">DIOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIPermission.html">DIPermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIPresentDevice.html">DIPresentDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DIUserSettings.html">DIUserSettings</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DIRegion.html">DIRegion</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>DIDataCalculation</h1>
               <div class="declaration">
                 <div class="language">
@@ -299,12 +307,15 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Protocol that represents data calculation</p>
 
-          </section>
-          <section class="section task-group-section">
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -321,12 +332,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Total cost</p>
 
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Undocumented</p>
+                        <p>Total cost</p>
 
                       </div>
                       <div class="declaration">
@@ -356,12 +367,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Total CO2</p>
 
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Undocumented</p>
+                        <p>Total CO2</p>
 
                       </div>
                       <div class="declaration">
@@ -369,114 +380,6 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">totalCO2</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp"></a>
-                    <a name="//apple_ref/swift/Property/fuelConsumption" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp">fuelConsumption</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp"></a>
-                    <a name="//apple_ref/swift/Property/electricityConsumption" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp">electricityConsumption</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">electricityConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit17DIDataCalculationP9fuelPriceSdvp"></a>
-                    <a name="//apple_ref/swift/Property/fuelPrice" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationP9fuelPriceSdvp">fuelPrice</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Drivit17DIDataCalculationP15eletricityPriceSdvp"></a>
-                    <a name="//apple_ref/swift/Property/eletricityPrice" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationP15eletricityPriceSdvp">eletricityPrice</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">eletricityPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -496,7 +399,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Distance</p>
 
                       </div>
                       <div class="declaration">
@@ -513,9 +416,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Drivit17DIDataCalculationP8fuelTypeAA06DIFuelE0Ovp"></a>
+                    <a name="/s:6Drivit17DIDataCalculationP8fuelTypeAA6DIFuelOvp"></a>
                     <a name="//apple_ref/swift/Property/fuelType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Drivit17DIDataCalculationP8fuelTypeAA06DIFuelE0Ovp">fuelType</a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP8fuelTypeAA6DIFuelOvp">fuelType</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -523,14 +426,122 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Fuel type</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelType</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuelType.html">DIFuelType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelType</span><span class="p">:</span> <span class="kt"><a href="../Enums/DIFuel.html">DIFuel</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP9fuelPriceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/fuelPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP9fuelPriceSdvp">fuelPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fuel price</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/fuelConsumption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP15fuelConsumptionSdvp">fuelConsumption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fuel consumption</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fuelConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP16electricityPriceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/electricityPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP16electricityPriceSdvp">electricityPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Electricity price</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">electricityPrice</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/electricityConsumption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Drivit17DIDataCalculationP22electricityConsumptionSdvp">electricityConsumption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Electricity consumption</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">electricityConsumption</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -539,14 +550,15 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-12-04)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://drivit.com" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2019-12-13)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>
