@@ -2,7 +2,7 @@
   "warnings": [
     {
       "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIObjects/DIUser/DIUserSettings/DIUserSettings+Object.swift",
-      "line": 157,
+      "line": 129,
       "symbol": "DIOUserSettings",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
