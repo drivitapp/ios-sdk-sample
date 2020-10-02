@@ -1,19 +1,6 @@
 {
   "warnings": [
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/DIObjects/DIUser/DIUserSettings/DIUserSettings+Object.swift",
-      "line": 129,
-      "symbol": "DIOUserSettings",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/adaorodrigues/Documents/Repository/iOS-core/Source/Helpers/Keychain.swift",
-      "line": 1153,
-      "symbol": "Keychain",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    }
+
   ],
-  "source_directory": "/Users/adaorodrigues/Documents/Repository/iOS-core"
+  "source_directory": "/Users/adaorodrigues/Documents/Repository.nosync/ios-core"
 }

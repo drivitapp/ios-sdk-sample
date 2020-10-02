@@ -20,9 +20,9 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="index.html">
-          Drivit Docs
+          Drivit 4.3.1 Docs
         </a>
-         (99% documented)
+         (100% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -249,14 +249,6 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a class="nav-group-name-link" href="Other%20Functions.html">Other Functions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="Other%20Functions.html#/s:6Drivit2eeoiySbAA14DIChargingRule_p_AaC_ptF">==(_:_:)</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a class="nav-group-name-link" href="Other%20Protocols.html">Other Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
@@ -298,14 +290,14 @@
       <article class="main-content">
 
         <section class="section">
-          <div class="section-content">
+          <div class="section-content top-matter">
             
             <p align="center">
   <img src="https://github.com/drivitapp/ios-sdk-sample/blob/master/logo.jpg?raw=true" />
 </p>
 <h1 id='drivit' class='heading'>Drivit</h1>
 
-<p><a href="https://github.com/drivitapp/ios-sdk-sample/releases/latest"><img src="https://img.shields.io/badge/Pod-4.0.0--beta3-blue.svg?style=flat" alt="Version"></a> <a href="https://github.com/CocoaPods/CocoaPods"><img src="https://img.shields.io/badge/CocoaPods-compatible-success?style=flat" alt="CocoaPods"></a> <a href="https://developer.apple.com/swift/"><img src="https://img.shields.io/badge/Swift-5.0-orange?style=flat" alt="Swift 5.0"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat" alt="Platform"></a></p>
+<p><a href="https://github.com/drivitapp/ios-sdk-sample/releases/latest"><img src="https://img.shields.io/badge/Pod-4.3.1-blue.svg?style=flat" alt="Version"></a> <a href="https://github.com/CocoaPods/CocoaPods"><img src="https://img.shields.io/badge/CocoaPods-compatible-success?style=flat" alt="CocoaPods"></a> <a href="https://developer.apple.com/swift/"><img src="https://img.shields.io/badge/Swift-5-orange?style=flat" alt="Swift 5"></a> <a href="https://img.shields.io/badge/Platform-iOS-lightgrey.svg"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat" alt="Platform"></a></p>
 
 <p>This is a sample project that outlines the key steps to integrate the Drivit iOS SDK into your application and put it to work. Should you have any doubt, feel free to contact us at <a href="mailto:support@drivit.com">support@drivit.com</a>.</p>
 
@@ -326,27 +318,31 @@
 
 <ul>
 <li>iOS 10.0+</li>
-<li>Xcode 11.3.1</li>
 </ul>
 
 <p>Below is a table that shows which version of Drivit you should use for your Swift version.</p>
 
 <table><thead>
 <tr>
+<th style="text-align: center">Xcode</th>
 <th style="text-align: center">Swift</th>
-<th style="text-align: center"></th>
 <th style="text-align: center">Drivit</th>
 </tr>
 </thead><tbody>
 <tr>
-<td style="text-align: center">5.X</td>
-<td style="text-align: center">&gt;=</td>
-<td style="text-align: center">3.3</td>
+<td style="text-align: center">12</td>
+<td style="text-align: center">5</td>
+<td style="text-align: center">4.3.1</td>
 </tr>
 <tr>
-<td style="text-align: center">4.X</td>
-<td style="text-align: center">&lt;=</td>
-<td style="text-align: center">3.2</td>
+<td style="text-align: center">11</td>
+<td style="text-align: center">5</td>
+<td style="text-align: center">3.3.0 - 4.2.0</td>
+</tr>
+<tr>
+<td style="text-align: center">10</td>
+<td style="text-align: center">4</td>
+<td style="text-align: center">1.0.0 - 3.2.0</td>
 </tr>
 </tbody></table>
 <h3 id='xcode-capabilities' class='heading'>Xcode Capabilities</h3>
@@ -373,10 +369,9 @@
 <p>To integrate Drivit into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
 <pre class="highlight ruby"><code><span class="n">source</span> <span class="s1">'https://github.com/CocoaPods/Specs.git'</span>
 <span class="n">platform</span> <span class="ss">:ios</span><span class="p">,</span> <span class="s1">'10.0'</span>
-<span class="n">use_frameworks!</span>
 
 <span class="n">target</span> <span class="s1">'&lt;Your Target Name&gt;'</span> <span class="k">do</span>
-    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 4.0.0-beta3'</span>
+    <span class="n">pod</span> <span class="s1">'Drivit'</span><span class="p">,</span> <span class="s1">'~&gt; 4.3.1'</span>
 <span class="k">end</span>
 </code></pre>
 
@@ -485,8 +480,8 @@ To do so, create an instance of the <code><a href="Enums/DILogin.html">DILogin</
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2020 <a class="link" href="https://drivit.com" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2020-02-26)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2020 <a class="link" href="https://drivit.com" target="_blank" rel="external">Drivit</a>. All rights reserved. (Last updated: 2020-10-02)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
